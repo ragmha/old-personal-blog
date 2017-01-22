@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://raghibm.com/</id>
+    <title>🦄</title>
+    <updated>2017-01-22T03:57:29Z</updated>
+    <author>
+        <name>Raghib</name>
+        <email>abulm@metropolia.fi</email>
+        <uri>https://raghibm.com/about</uri>
+    </author>
+    <link rel="alternate" href="https://raghibm.com"/>
+    <subtitle>By Raghib Hasan — an open source developer interested in advanced JavaScript and everything λ</subtitle>
+    <rights>All rights reserved  2017, Raghib Hasan</rights>
+    <generator>Feed for Node.js</generator>
+    <entry>
+        <title type="html"><![CDATA[Hello world]]></title>
+        <id>https://raghibm.com/blog/hello-world/</id>
+        <link href="https://raghibm.com/blog/hello-world/">
+        </link>
+        <updated>2016-11-02T22:00:00Z</updated>
+        <summary type="html"><![CDATA[My first blog]]></summary>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+</feed>
