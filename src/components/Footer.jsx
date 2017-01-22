@@ -19,6 +19,11 @@ export default function Footer() {
         </p>
         <ul>
           <li>
+            <a rel='noopener noreferrer' target='__blank' href='//raghibm.com/atom'>
+              <Icon icon='rss' />
+            </a>
+          </li>
+          <li>
             <a rel='noopener noreferrer' target='__blank' href='//facebook.com/rgb211'>
               <Icon icon='facebook' />
             </a>
