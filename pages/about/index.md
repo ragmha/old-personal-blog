@@ -10,9 +10,9 @@ __tl;dr__ I experiment on my :computer:.
 
 * I listen to a lot of music from various genres ranging from rap to alt-rock to atmospheric dance. My all-time favorites are:  Skrillex, Avicii, W&W, G-Eazy, Marshmello and Arctic Monkeys among others.
 
-* I like trying out <insert your framework> and <insert your tools> 😎
+* I ❤️ trying out ``<insert your framework | tools | libray>``  😎 👊
 
-* I love reading [Hacker news](https://news.ycombinator.com/) to keep myself updated with technology trends 🎉
+* I ❤️ reading [Hacker news](https://news.ycombinator.com/) to keep myself updated with technology trends 🎉
 
 * My public key fingerprint is:
  `D92E A9FF 68F8 A502 389E 4AAB 4DE7 6CF9 E176 AB6D`
