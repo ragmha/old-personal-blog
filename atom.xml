@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-01-24T00:41:25Z</updated>
+    <updated>2017-01-24T00:44:28Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -18,7 +18,7 @@
         <link href="https://raghibm.com/blog/gettings-started-with-express-react-views/">
         </link>
         <updated>2017-01-23T22:00:00Z</updated>
-        <summary type="html"><![CDATA[My first blog]]></summary>
+        <summary type="html"><![CDATA[Get up and running with express & react]]></summary>
         <content type="html"><![CDATA[<p>I am currently taking <a href="https://university.mongodb.com/courses/M101JS/about">M101JS</a> this year and having enough experience with <a href="https://facebook.github.io/react/">React</a>.
 I&#x2019;ve decided to use <a href="https://github.com/reactjs/express-react-views">express-react-views</a> for some of the challenges during the 8 week course.There are of course other server-side view solution <a href="http://www.embeddedjs.com/">ejs</a>, <a href="https://pugjs.org/api/getting-started.html">pug</a> or <a href="https://github.com/barc/express-hbs">handlebars</a>.</p>
 <h2>Step 1</h2>
