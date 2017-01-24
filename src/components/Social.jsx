@@ -7,7 +7,7 @@ const TwitterIcon = generateShareIcon('twitter');
 
 const TweetThis = props => (
   <TwitterShareButton
-    url={`https://raghibm.com/${props.path}`}
+    url={`http://raghibm.com/${props.path}`}
     title={props.title}
     via={'ragmha'}
     className={'share-icons'}
@@ -18,7 +18,7 @@ const TweetThis = props => (
 
 const FacebookShare = props => (
   <FacebookShareButton
-    url={`https://raghibm.com/${props.path}`}
+    url={`http://raghibm.com/${props.path}`}
     title={props.title}
     className={'share-icons'}
   >
