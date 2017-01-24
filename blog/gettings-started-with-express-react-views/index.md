@@ -1,7 +1,7 @@
 ---
 title: Getting started with express-react-views
 date: 01/24/2017
-description: My first blog
+description: Get up and running with express & react
 ---
 
 I am currently taking [M101JS](https://university.mongodb.com/courses/M101JS/about) this year and having enough experience with [React](https://facebook.github.io/react/).
