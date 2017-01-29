@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-01-22T04:05:15Z</updated>
+    <updated>2017-01-29T17:20:02Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -13,12 +13,112 @@
     <rights>All rights reserved  2017, Raghib Hasan</rights>
     <generator>Feed for Node.js</generator>
     <entry>
+        <title type="html"><![CDATA[Getting started with express-react-views]]></title>
+        <id>https://raghibm.com/blog/gettings-started-with-express-react-views/</id>
+        <link href="https://raghibm.com/blog/gettings-started-with-express-react-views/">
+        </link>
+        <updated>2017-01-23T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Get up and running with express & react]]></summary>
+        <content type="html"><![CDATA[<p>I am currently taking <a href="https://university.mongodb.com/courses/M101JS/about">M101JS</a> this year and having enough experience with <a href="https://facebook.github.io/react/">React</a>.
+I&#x2019;ve decided to use <a href="https://github.com/reactjs/express-react-views">express-react-views</a> for some of the challenges during the 8 week course.There are of course other server-side view solution <a href="http://www.embeddedjs.com/">ejs</a>, <a href="https://pugjs.org/api/getting-started.html">pug</a> or <a href="https://github.com/barc/express-hbs">handlebars</a>.</p>
+<h2>Step 1</h2>
+<p>Create a directory named <code>myapp</code></p>
+<pre><code class="language-javascipt">$ mkdir myapp
+</code></pre>
+<h2>Step 2</h2>
+<p>change to the directory and run <code>npm init</code></p>
+<pre><code class="language-javascipt">$ cd myapp
+$ npm init
+</code></pre>
+<h2>Step 3</h2>
+<p>Install the required <strong>dependencies</strong> <code>express</code>, <code>express-react-views</code>, <code>react</code> and <code>react-dom</code></p>
+<pre><code class="language-javascipt">$&#xA0;npm install --save express express-react-views react react-dom
+
+</code></pre>
+<h2>Step 4</h2>
+<p>In the <code>myapp</code> directory, create a file named <code>app.js</code> and add the following code:</p>
+<pre><code class="language-javascipt">const express = require(&apos;express&apos;);
+const { createEngine } = require(&apos;express-react-views&apos;);
+
+const app = express();
+const port = 3000;
+
+app.set(&apos;views&apos;, __dirname + &apos;/views&apos;);
+app.set(&apos;view engine&apos;, &apos;jsx&apos;);
+app.engine(&apos;jsx&apos;, createEngine());
+
+app.get(&apos;/&apos;, (req, res, next) =&gt; {
+  res.render(&apos;index.jsx&apos;, { name: &apos;world&apos; });
+});
+
+app.listen(
+  port,
+  () =&gt; console.log(`\uD83C\uDF0F running at http://localhost:${port}`)
+);
+
+</code></pre>
+<h2>Step 6</h2>
+<p>In the <code>myapp</code> directory, create a <code>views</code> directory with a views template named <code>index.jsx</code></p>
+<pre><code>$ mkdir views
+$ cd views
+$ touch index.jsx
+</code></pre>
+<p>and add the following code:</p>
+<pre><code>const React = require(&apos;react&apos;);
+
+class HelloWorld extends React.Component {
+  render() {
+    return &lt;div&gt; Hello {this.props.name} &lt;/div&gt;;
+  }
+}
+
+module.exports = HelloWorld;
+</code></pre>
+<h2>Step 7</h2>
+<p>Run the app from <code>myapp</code> directory with the following command:</p>
+<pre><code class="language-javascipt">$ node app.js
+</code></pre>
+<p>Then, load <a href="http://localhost:3000/">http://localhost:3000/</a> in a browser to see the output.</p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hello world]]></title>
         <id>https://raghibm.com/blog/hello-world/</id>
         <link href="https://raghibm.com/blog/hello-world/">
         </link>
         <updated>2016-11-02T22:00:00Z</updated>
         <summary type="html"><![CDATA[My first blog]]></summary>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Removing duplicates from "Open With" Mac OSX]]></title>
+        <id>https://raghibm.com/blog/remove-duplicates-from-open-with/</id>
+        <link href="https://raghibm.com/blog/remove-duplicates-from-open-with/">
+        </link>
+        <updated>2017-01-28T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Remove Duplicates from the “Open With” Right-Click Menu in Mac OS X]]></summary>
+        <content type="html"><![CDATA[<p><strong>tldr;</strong></p>
+<pre><code class="language-bash">/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/\
+LaunchServices.framework/Versions/A/Support/\
+lsregister -kill -r -domain local -domain user
+</code></pre>
+<h2>Creating an alias</h2>
+<pre><code class="language-bash"> $ nano .bash_profile
+</code></pre>
+<pre><code class="language-bash">alias fixow=&apos;/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user;killall Finder;echo &quot;Open With has been rebuilt, Finder will relaunch&quot;&apos;
+</code></pre>
+<pre><code class="language-bash"> $ fix row
+</code></pre>
+]]></content>
         <author>
             <name>Raghib</name>
             <email>abulm@metropolia.fi</email>
