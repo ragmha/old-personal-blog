@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-01-24T00:44:28Z</updated>
+    <updated>2017-01-29T17:20:02Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -93,6 +93,32 @@ module.exports = HelloWorld;
         </link>
         <updated>2016-11-02T22:00:00Z</updated>
         <summary type="html"><![CDATA[My first blog]]></summary>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Removing duplicates from "Open With" Mac OSX]]></title>
+        <id>https://raghibm.com/blog/remove-duplicates-from-open-with/</id>
+        <link href="https://raghibm.com/blog/remove-duplicates-from-open-with/">
+        </link>
+        <updated>2017-01-28T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Remove Duplicates from the “Open With” Right-Click Menu in Mac OS X]]></summary>
+        <content type="html"><![CDATA[<p><strong>tldr;</strong></p>
+<pre><code class="language-bash">/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/\
+LaunchServices.framework/Versions/A/Support/\
+lsregister -kill -r -domain local -domain user
+</code></pre>
+<h2>Creating an alias</h2>
+<pre><code class="language-bash"> $ nano .bash_profile
+</code></pre>
+<pre><code class="language-bash">alias fixow=&apos;/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user;killall Finder;echo &quot;Open With has been rebuilt, Finder will relaunch&quot;&apos;
+</code></pre>
+<pre><code class="language-bash"> $ fix row
+</code></pre>
+]]></content>
         <author>
             <name>Raghib</name>
             <email>abulm@metropolia.fi</email>
