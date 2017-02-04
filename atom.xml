@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-04T09:39:10Z</updated>
+    <updated>2017-02-04T09:44:32Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -151,54 +151,53 @@ module.exports = HelloWorld;
 <blockquote>
 <p>E.g Bank with a one teller</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/reason-async/https://alsanda.files.wordpress.com/2012/08/bank-teller1.jpg" alt="BANK"><figcaption>BANK</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/https://alsanda.files.wordpress.com/2012/08/bank-teller1.jpg" alt="Bank with a one teller"><figcaption>Bank with a one teller</figcaption></figure>
 <h2>Event Loop</h2>
 <blockquote>
-<p>E.g line to use the bathroom</p>
+<p>E.g Line to use the bathroom</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/reason-async/https://barchronicles.files.wordpress.com/2010/10/bathroomline1.jpg" alt="BATHROOM"><figcaption>BATHROOM</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/https://barchronicles.files.wordpress.com/2010/10/bathroomline1.jpg" alt="BATHROOM LINE"><figcaption>BATHROOM LINE</figcaption></figure>
 <h2>Non-blocking</h2>
 <blockquote>
-<p>E.g forgot papers, next person serviced</p>
+<p>E.g Forgot papers, next person serviced</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/reason-async/http://media.gettyimages.com/photos/customer-is-served-by-bank-staff-at-a-branch-of-nordea-bank-ab-in-picture-id94937810" alt="Service"><figcaption>Service</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/http://media.gettyimages.com/photos/customer-is-served-by-bank-staff-at-a-branch-of-nordea-bank-ab-in-picture-id94937810" alt="Non-blocking Service"><figcaption>Non-blocking Service</figcaption></figure>
 <h2>Avoid blocking</h2>
 <blockquote>
 <p>Don&#x2019;t hog the bathroom</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/reason-async/http://images.fineartamerica.com/images-medium-large/please-dont-hog-the-bathroom-sylvia-pimental-.jpg" alt="DON&apos;T"><figcaption>DON&apos;T</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/http://images.fineartamerica.com/images-medium-large/please-dont-hog-the-bathroom-sylvia-pimental-.jpg" alt="DON&apos;T HOG THE BATHROOM"><figcaption>DON&apos;T HOG THE BATHROOM</figcaption></figure>
 <h2>Run to completion</h2>
 <blockquote>
 <p>Satisfy customer before next</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/reason-async/http://www.clipartkid.com/images/103/satisfied-customer-clipart-DwLJMJ-clipart.png" alt="SATISFY"><figcaption>SATISFY</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/http://www.clipartkid.com/images/103/satisfied-customer-clipart-DwLJMJ-clipart.png" alt="SATISFIED &#x1F604;"><figcaption>SATISFIED &#x1F604;</figcaption></figure>
 <h2>Cooperative Concurrency</h2>
 <blockquote>
 <p>Customers play nice</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/reason-async/https://www.hyken.com/wp-content/uploads/Discount-Coffee-250x300.jpg" alt="CUSTOMER"><figcaption>CUSTOMER</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/https://www.hyken.com/wp-content/uploads/Discount-Coffee-250x300.jpg" alt="CUSTOMER PLAY NICE &#x1F609;"><figcaption>CUSTOMER PLAY NICE &#x1F609;</figcaption></figure>
 <h2>Little Programs</h2>
 <blockquote>
 <p>Customers in line</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/reason-async/http://blog.clarity.fm/wp-content/uploads/2013/07/customer-line-603x452.jpg" alt="CUSTOMERS IN LINE"><figcaption>CUSTOMERS IN LINE</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/http://blog.clarity.fm/wp-content/uploads/2013/07/customer-line-603x452.jpg" alt="CUSTOMERS IN LINE &#x1F62F;"><figcaption>CUSTOMERS IN LINE &#x1F62F;</figcaption></figure>
 <h2>Think explicitly about Asynchronous Seams</h2>
-<figure><img src="https://raghibm.com/blog/reason-async/https://dqam6mam97sh3.cloudfront.net/blog/ausl/wp-content/uploads/sites/2/2015/02/homer.png" alt="Think"><figcaption>Think</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/https://dqam6mam97sh3.cloudfront.net/blog/ausl/wp-content/uploads/sites/2/2015/02/homer.png" alt="Think &#x1F914;"><figcaption>Think &#x1F914;</figcaption></figure>
 <h2>Timer delay not guaranteed</h2>
 <blockquote>
 <p>Calendar, Todo list</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/reason-async/http://bashooka.com/wp-content/uploads/2012/10/calendar_designs-1.jpg" alt="CALENDAR"><figcaption>CALENDAR</figcaption></figure>
-<figure><img src="https://raghibm.com/blog/reason-async/https://cdn.theunlockr.com/wp-content/uploads/2012/06/To-Do-List-feature.jpg" alt="TODO LIST"><figcaption>TODO LIST</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/http://bashooka.com/wp-content/uploads/2012/10/calendar_designs-1.jpg" alt="CALENDAR &#x1F4C6;"><figcaption>CALENDAR &#x1F4C6;</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/https://cdn.theunlockr.com/wp-content/uploads/2012/06/To-Do-List-feature.jpg" alt="TODO LIST &#x1F50F;"><figcaption>TODO LIST &#x1F50F;</figcaption></figure>
 <h2>Not always async</h2>
 <blockquote>
 <p>Quack, waddle but not a duck</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/reason-async/https://s-media-cache-ak0.pinimg.com/236x/eb/f2/b9/ebf2b9588854dd12c39911aa3031e351.jpg" alt="Quack"><figcaption>Quack</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/https://s-media-cache-ak0.pinimg.com/236x/eb/f2/b9/ebf2b9588854dd12c39911aa3031e351.jpg" alt="Quack &#x1F425;"><figcaption>Quack &#x1F425;</figcaption></figure>
 <h2>Race conditions in order of queue</h2>
-<figure><img src="https://raghibm.com/blog/reason-async/http://learnyousomeerlang.com/static/img/fsm_both_ready.png" alt="Race conditon"><figcaption>Race conditon</figcaption></figure>
-<h2>======= WOOT ========</h2>
-<figure><img src="https://raghibm.com/blog/reason-async/https://cdn-images-1.medium.com/max/800/1*7IURnff2RaD8iM8yePIw7g.gif" alt="woot"><figcaption>woot</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/http://learnyousomeerlang.com/static/img/fsm_both_ready.png" alt="Race conditon &#x1F3C3;"><figcaption>Race conditon &#x1F3C3;</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/https://cdn-images-1.medium.com/max/800/1*7IURnff2RaD8iM8yePIw7g.gif" alt="WOOOW &#x1F984;"><figcaption>WOOOW &#x1F984;</figcaption></figure>
 ]]></content>
         <author>
             <name>Raghib</name>
