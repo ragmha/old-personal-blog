@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-01-31T15:47:32Z</updated>
+    <updated>2017-02-04T08:56:51Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -133,6 +133,56 @@ module.exports = HelloWorld;
         </link>
         <updated>2016-11-02T22:00:00Z</updated>
         <summary type="html"><![CDATA[My first blog]]></summary>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A good way to reason async]]></title>
+        <id>https://raghibm.com/blog/reason-async/</id>
+        <link href="https://raghibm.com/blog/reason-async/">
+        </link>
+        <updated>2017-02-03T22:00:00Z</updated>
+        <summary type="html"><![CDATA[A good way to reason/ remember Async]]></summary>
+        <content type="html"><![CDATA[<h1>Hmm&#x2026; async stuffs &#x1F914;</h1>
+<ul>
+<li>
+<p>Single-threaded(bank with one teller)</p>
+</li>
+<li>
+<p>Event Loop(line to use the bathroom)</p>
+</li>
+<li>
+<p>Non-blocking(forgot papers, next person serviced)</p>
+</li>
+<li>
+<p>Avoid blocking(don&#x2019;t hog the bathroom)</p>
+</li>
+<li>
+<p>Run to completion(satisfy customer before next)</p>
+</li>
+<li>
+<p>Cooperative Concurrency(customers play nice)</p>
+</li>
+<li>
+<p>Little Programs(customers in line)</p>
+</li>
+<li>
+<p>Think explicitly about Asynchronous Seams</p>
+</li>
+<li>
+<p>Timer delay not guaranteed(calendar/todo list)</p>
+</li>
+<li>
+<p>Not always async(quack, waddle but not a duck)</p>
+</li>
+<li>
+<p>Race conditions in order of queue</p>
+</li>
+</ul>
+]]></content>
         <author>
             <name>Raghib</name>
             <email>abulm@metropolia.fi</email>
