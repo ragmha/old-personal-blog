@@ -4,7 +4,7 @@ date: 02/08/2017
 description: Visualize the call-stack of printSquare with 10 steps 👌
 ---
 
-# Visualization of the call stack 📞
+
 > `one thread` === `one call stack` === `one thing at a time`
 
 ```javascript
@@ -311,7 +311,8 @@ printSquare(4);
 |_________________|
 
 ```
-## DONE 👍
+
+![WOOOW](https://s-media-cache-ak0.pinimg.com/originals/46/02/88/46028823ea0de856a1f7683fa24c4e7f.gif)
 
 
 ## REFERENCE
