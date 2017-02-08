@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-08T12:15:30Z</updated>
+    <updated>2017-02-08T12:23:21Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -371,8 +371,7 @@ lsregister -kill -r -domain local -domain user
         </link>
         <updated>2017-02-07T22:00:00Z</updated>
         <summary type="html"><![CDATA[Visualize the call-stack of printSquare with 10 steps 👌]]></summary>
-        <content type="html"><![CDATA[<h1>Visualization of the call stack &#x1F4DE;</h1>
-<blockquote>
+        <content type="html"><![CDATA[<blockquote>
 <p><code>one thread</code> === <code>one call stack</code> === <code>one thing at a time</code></p>
 </blockquote>
 <pre><code class="language-javascript">// Example
@@ -653,7 +652,7 @@ printSquare(4);
 |_________________|
 
 </code></pre>
-<h2>DONE &#x1F44D;</h2>
+<figure><img src="https://raghibm.com/blog/visualize-call-stack/https://s-media-cache-ak0.pinimg.com/originals/46/02/88/46028823ea0de856a1f7683fa24c4e7f.gif" alt="WOOOW"><figcaption>WOOOW</figcaption></figure>
 <h2>REFERENCE</h2>
 <p><a href="https://youtu.be/8aGhZQkoFbQ">What the heck is the event loop anyway?</a></p>
 ]]></content>
