@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-04T09:44:32Z</updated>
+    <updated>2017-02-07T13:00:44Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -12,6 +12,139 @@
     <subtitle>By Raghib Hasan — an open source developer interested in advanced JavaScript and everything λ</subtitle>
     <rights>All rights reserved  2017, Raghib Hasan</rights>
     <generator>Feed for Node.js</generator>
+    <entry>
+        <title type="html"><![CDATA[Awesome ES6 Features]]></title>
+        <id>https://raghibm.com/blog/awesome-ES6-features/</id>
+        <link href="https://raghibm.com/blog/awesome-ES6-features/">
+        </link>
+        <updated>2017-02-06T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Refresh your ES6 with these examples 👊]]></summary>
+        <content type="html"><![CDATA[<h2>&#x270A; Convert NodeList to Array:</h2>
+<pre><code class="language-javascript">let Headings  = [...document.querySelectorAll(&apos;h1&apos;)];
+</code></pre>
+<h2>&#x270A; Convert Arguments to Array:</h2>
+<pre><code class="language-javascript">let argsArray  = [...arguments];
+</code></pre>
+<h2>&#x1F984; Unique Arrays:</h2>
+<pre><code class="language-javascript">let array = [1,3,3,7];
+
+let result = [...new Set(array)]; // =&gt; [1, 3, 7]
+</code></pre>
+<h2>&#x1F528; Destructuring:</h2>
+<pre><code class="language-javascript">let {foo, bar} = {foo: &quot;lorem&quot;, bar: &quot;ipsum&quot;};
+
+foo; // =&gt; lorem
+
+bar; // =&gt; ipsum
+</code></pre>
+<h2>&#x1F693; Interpolate</h2>
+<pre><code class="language-javascript">let obj = { x: 1, y: 2 };
+
+let result = console.log(`Your total is: ${obj.x + obj.y}`);
+
+result; // =&gt; Your total is: 3
+</code></pre>
+<h2>&#x1F645; Swapping:</h2>
+<pre><code class="language-javascript">let x = 4;
+let y = 2;
+
+let [y1, x1] = [x , y];
+
+y1; // =&gt; 4
+x1; // =&gt; 2
+</code></pre>
+<h2>&#x1F914; Finding Max in Array?</h2>
+<pre><code class="language-javascript">let arr = [1,4,32,10];
+
+Math.max(...arr); // =&gt; 32
+</code></pre>
+<h2>&#x1F52A; <s>List comprehension:</s></h2>
+<h3><code>[NOT COMPATIBLE with current browser, Only works on Firefox(Gecko)]</code></h3>
+<pre><code class="language-javascript">let numbers = [1, 2, 3, 4];
+
+var doubled = [for (let i of numbers) i *2];
+
+doubled; //=&gt; 2,4,6,8
+</code></pre>
+<h2>&#x270A; Map them!</h2>
+<pre><code class="language-javascript">let arr = [{id: 1, name:&apos;A&apos;}, {id: 2, name:&apos;B&apos;}, {id:3, name:&apos;C&apos;}];
+
+arr.map(x =&gt; x.id); // =&gt; [1,2,3]
+</code></pre>
+<h2>&#x1F62E; <a href="http://Object.is">Object.is</a> ?</h2>
+<pre><code class="language-javascript">let z = (x, y) =&gt; x === y || Object.is(x,y);
+
+let obj1 = {
+  id : 1
+};
+
+let obj2 = {
+  id : 1
+};
+
+z(obj1, obj1); //=&gt; true
+z(obj1, obj2); //=&gt; false
+</code></pre>
+<h2>&#x1F47B; Is it Hidden?</h2>
+<pre><code class="language-javascript">// RegExp.prototype.test()
+
+let isHidden = (file) =&gt; /^\.|~$/.test(file);
+
+isHidden(&quot;.DS_STORE&quot;) //=&gt; true
+</code></pre>
+<h2>&#x1F914; Is it Included?</h2>
+<pre><code class="language-javascript">// Array.prototype.includes()
+let arr = [1, 2, 3];
+
+arr.includes(2); // =&gt; true &#x1F64C;
+
+</code></pre>
+<h2>&#x270B; What them entries ?</h2>
+<pre><code class="language-javascript">let obj = {foo: &apos;bar&apos;, baz: 42};
+
+let Entries = Object.entries(obj);
+
+Entries; // =&gt; [[&apos;foo&apos;, &apos;bar&apos;], [&apos;baz&apos;,42]]
+
+</code></pre>
+<h2>&#x270B; What them values ?</h2>
+<pre><code class="language-javascript">let obj = {foo: &apos;bar&apos;, baz: 42};
+
+let Values = Object.values(obj);
+
+Values; // =&gt; [&apos;bar&apos;, 42]
+
+</code></pre>
+<h2>&#x1F607; Promise</h2>
+<pre><code class="language-javascript">let wait1000 = new Promise((resolve, reject) =&gt; {
+  setTimeout(resolve,1000);
+}).then(() =&gt; {
+  console.log(&apos;Wohoo!! &#x1F64C;&apos;);
+});
+
+wait1000; // =&gt; after 1 sec Wohoo!! &#x1F64C;
+</code></pre>
+<h2>&#x1F50D; Find</h2>
+<pre><code class="language-javascript">let ages = [12, 19, 6, 4];
+
+// Array.prototype.find()
+let firstAdult = ages.find(age =&gt; age &gt;= 18);
+
+firstAdult; // =&gt; 19
+
+// Array..prototype.findIndex()
+let firstAdultIndex = ages.find(age =&gt; age &gt;= 18);
+
+firstAdultIndex; // =&gt; 1
+</code></pre>
+<figure><img src="https://raghibm.com/blog/awesome-ES6-features/http://33.media.tumblr.com/tumblr_lnd67mbWHl1ql201ao1_500.gif" alt="INTERESTING"><figcaption>INTERESTING</figcaption></figure>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Deploy Create React App with Surge]]></title>
         <id>https://raghibm.com/blog/deploy-create-react-app-with-surge/</id>
