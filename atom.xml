@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-11T13:41:36Z</updated>
+    <updated>2017-02-11T13:48:48Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -13,7 +13,7 @@
     <rights>All rights reserved  2017, Raghib Hasan</rights>
     <generator>Feed for Node.js</generator>
     <entry>
-        <title type="html"><![CDATA[Awesome ES6 Features]]></title>
+        <title type="html"><![CDATA[😎 Awesome ES6 Features]]></title>
         <id>https://raghibm.com/blog/awesome-ES6-features/</id>
         <link href="https://raghibm.com/blog/awesome-ES6-features/">
         </link>
@@ -146,7 +146,7 @@ firstAdultIndex; // =&gt; 1
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Deploy Create React App with Surge]]></title>
+        <title type="html"><![CDATA[🚀 Deploy Create React App with Surge]]></title>
         <id>https://raghibm.com/blog/deploy-create-react-app-with-surge/</id>
         <link href="https://raghibm.com/blog/deploy-create-react-app-with-surge/">
         </link>
@@ -186,7 +186,7 @@ $ npm run build
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Getting started with express-react-views]]></title>
+        <title type="html"><![CDATA[🚀 Getting started with express-react-views]]></title>
         <id>https://raghibm.com/blog/gettings-started-with-express-react-views/</id>
         <link href="https://raghibm.com/blog/gettings-started-with-express-react-views/">
         </link>
@@ -260,7 +260,7 @@ module.exports = HelloWorld;
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hello world]]></title>
+        <title type="html"><![CDATA[👋 Hello world]]></title>
         <id>https://raghibm.com/blog/hello-world/</id>
         <link href="https://raghibm.com/blog/hello-world/">
         </link>
@@ -289,12 +289,12 @@ module.exports = HelloWorld;
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A good way to reason async]]></title>
+        <title type="html"><![CDATA[🤔 Reasoning async]]></title>
         <id>https://raghibm.com/blog/reason-async/</id>
         <link href="https://raghibm.com/blog/reason-async/">
         </link>
         <updated>2017-02-03T22:00:00Z</updated>
-        <summary type="html"><![CDATA[A good way to reason/ remember Async]]></summary>
+        <summary type="html"><![CDATA[A good way to reason/remember Async]]></summary>
         <content type="html"><![CDATA[<h1>Hmm&#x2026; async stuffs &#x1F914;</h1>
 <h2>Single-threaded</h2>
 <blockquote>
@@ -355,7 +355,7 @@ module.exports = HelloWorld;
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Removing duplicates from "Open With" Mac OSX]]></title>
+        <title type="html"><![CDATA[✨ Removing duplicates from "Open With" Mac OSX]]></title>
         <id>https://raghibm.com/blog/remove-duplicates-from-open-with/</id>
         <link href="https://raghibm.com/blog/remove-duplicates-from-open-with/">
         </link>
@@ -412,7 +412,7 @@ $&#xA0;sudo chown -R $(whoami) /usr/local/*/*npm*     # npm
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Use kill-tabs]]></title>
+        <title type="html"><![CDATA[🔧 Use kill-tabs]]></title>
         <id>https://raghibm.com/blog/use-kill-tabs/</id>
         <link href="https://raghibm.com/blog/use-kill-tabs/">
         </link>
@@ -447,7 +447,7 @@ Being a <code>tab-abuser</code>, I would advice anyone to install up this packag
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Visualization of the call stack 📞]]></title>
+        <title type="html"><![CDATA[🔍 Visualization of the 📞 stack]]></title>
         <id>https://raghibm.com/blog/visualize-call-stack/</id>
         <link href="https://raghibm.com/blog/visualize-call-stack/">
         </link>
