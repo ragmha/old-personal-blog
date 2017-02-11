@@ -1,5 +1,5 @@
 ---
-title: Removing duplicates from "Open With" Mac OSX
+title: ✨ Removing duplicates from "Open With" Mac OSX
 date: 01/29/2017
 description: Remove Duplicates from the “Open With” Right-Click Menu in Mac OS X
 ---

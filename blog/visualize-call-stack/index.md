@@ -1,12 +1,12 @@
 ---
-title: Visualization of the call stack 📞
+title: 🔍 Visualization of the 📞 stack
 date: 02/08/2017
 description: Visualize the call-stack of printSquare with 10 steps 👌
 ---
 
 
-> `one thread` === `one call stack` === `one thing at a time`
-
+## " `one thread` === `one call stack` === `one thing at a time` "
+___
 ```javascript
 // Example
  function multiply(a, b) {
@@ -25,16 +25,21 @@ function printSquare(n) {
 printSquare(4);
 ```
 ## NOTES:
-*   `call stack` is a `data structure` which `records` basically where in the program we are
+*   `call stack` is a `data structure` which `records` basically where in the program we are.
+
+
 
 *   If we `step into` a `function`, we put something on to the `stack`, if we `return` from a `function`, we `pop` `off` from the `top` of `stack`
 
-## Let's run this file 🏃
+----
+## Let's 🏃 this file  and  🔍 the `steps`
+----
 
 ## 🔨 STEP 1
+----
 ```javascript
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -43,16 +48,18 @@ printSquare(4);
  |                 |
  |                 |
  |                 |
- |      main()     |  <--- // There is kind of main function, like the file
- |_________________|       // itself, we push that on to the stack.
+ |      main()     | // <----- There is kind of main function,
+ |_________________| //        like the file itself, we push
+                     //        that on to the stack.
 
 ```
+----
 
 ## 🔨 STEP 2
-
+----
 ```javascript
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -61,17 +68,18 @@ printSquare(4);
  |                 |
  |                 |
  |  printSquare(4) |
- |      main()     |  <-- // It goes through the file `main()`, the `function
- |_________________|     // defination` and once we get to `printSquare`. Since
-                         // `printSquare` is a `function call`, so we push it on
-                         //  to the stack.
+ |      main()     | // <-----  It goes through the file "main()",
+ |_________________| //         the "function defination" and once
+                     //         we get to "printSquare". Since
+                     //         "printSquare" is a "function call",
+                     //         so we push it onto the stack.
 ```
-
+----
 ## 🔨 STEP 3
-
+----
 ```javascript
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -79,52 +87,52 @@ printSquare(4);
  |                 |
  |                 |
  |    square(n)    |
- |  printSquare(4) |  <-- // Inside `printSquare`, we immediately call
- |     main()      |      // `square` and push it on to the stack
- |_________________|
+ |  printSquare(4) | // <-----  Inside "printSquare", we immediately
+ |     main()      | //         call "square" and push it on
+ |_________________| //         to the stack.
 
 ```
-
+----
 ## 🔨 STEP 4
-
+----
 ```javascript
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
  |                 |
  |                 |
  |  multiply(n, n) |
- |    square(n)    |  <-- // Inside `square`, we  immediately call `multiply`
- |  printSquare(4) |      // and push it on to the stack
- |     main()      |
+ |    square(n)    | // <-----  Inside "square", we  immediately
+ |  printSquare(4) | //         call "multiply" and push it on to
+ |     main()      | //         the stack.
  |_________________|
 
 ```
-
+----
 ## 🔨 STEP 5
-
+----
 ```javascript
 
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
  |                 |
  |                 |
- |  multiply(n, n) |  <-- // `multiply` returns `a` and `b`, so as stated above
- |    square(n)    |      //  whenever we `return` something we `pop` off from
- |  printSquare(4) |      // `stack`
+ |  multiply(n, n) | // <-----  "multiply" returns "a" and "b", so
+ |    square(n)    | //          we "pop" off from stack.
+ |  printSquare(4) |
  |     main()      |
  |_________________|
 
 
-// RESULT  poof - it's gone 💥
+// RESULT (poof - it's gone 💥)
  _________________
-|      stack      |
+|      STACK      |
 |                 |
 |                 |
 |                 |
@@ -137,29 +145,29 @@ printSquare(4);
 |_________________|
 
 ```
-
+----
 ## 🔨 STEP 6
-
+----
 ```javascript
 
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
  |                 |
  |                 |
  |                 |
- |    square(n)    |   <--- //`square` returned `mutiply(n, n)`, so we `pop` it
- |  printSquare(4) |        // off the stack
+ |    square(n)    | // <-----  "square" returned "mutiply(n, n)",
+ |  printSquare(4) | //          so we "pop" it off the stack.
  |     main()      |
  |_________________|
 
 
-// RESULT  poof - it's gone 💥
+// RESULT (poof - it's gone 💥)
  _________________
-|      stack      |
+|      STACK      |
 |                 |
 |                 |
 |                 |
@@ -172,14 +180,14 @@ printSquare(4);
 |_________________|
 
 ```
-
+----
 ## 🔨 STEP 7
-
+----
 ```javascript
 
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -187,14 +195,14 @@ printSquare(4);
  |                 |
  |                 |
  |                 |
- |  printSquare(4) | <-- // Inside `printSquare`, it calls `console.log(squared)`
- |     main()      |     // Since it's a function call we push it to the stack
- |_________________|
+ |  printSquare(4) | // <----- Inside "printSquare", it calls
+ |     main()      | //        "console.log(squared)", since it's a
+ |_________________| //        function call we push it to the stack.
 
 
 // RESULT
  _____________________
-|        stack        |
+|        STACK        |
 |                     |
 |                     |
 |                     |
@@ -207,28 +215,29 @@ printSquare(4);
 |_____________________|
 
 ```
-
+----
 ## 🔨 STEP 8
-
+----
 ```javascript
 
 // INITIAL
  _____________________
-|        stack        |
+|        STACK        |
 |                     |
 |                     |
 |                     |
 |                     |
 |                     |
 |                     |
-| console.log(squared)| <--- // `console.log(squared)` returns the
-|    printSquare(4)   |      // `logged square` so we `pop` it `off` the `stack`
-|        main()       |
+| console.log(squared)| // <-----  "console.log(squared)" returns the
+|    printSquare(4)   | //         "logged square", so we "pop" it
+|        main()       | //         off the stack.
 |_____________________|
 
-// RESULT  poof - it's gone 💥
+
+// RESULT (poof - it's gone 💥)
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -236,19 +245,20 @@ printSquare(4);
  |                 |
  |                 |
  |     *poof*      |
- |  printSquare(4) | <-- // Inside `printSquare`, it calls `console.log(squared)`
- |     main()      |     // since it's a function call we push it to the stack
- |_________________|
+ |  printSquare(4) | //   <-----   Inside "printSquare", it calls
+ |     main()      | //            "console.log(squared)" since it's
+ |_________________| //            a function call we push
+                     //            it to the stack.
 
 ```
-
+----
 ## 🔨 STEP 9
-
+----
 ```javascript
 
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -256,14 +266,14 @@ printSquare(4);
  |                 |
  |                 |
  |                 |
- |  printSquare(4) |  <--- //`printSquare(n)` has no `return`, as it's `implicit`
- |     main()      |       //  we `pop` it off the stack
- |_________________|
+ |  printSquare(4) | //   <-----  "printSquare(n)" has no "return",
+ |     main()      | //            as it's "implicit" we "pop" it
+ |_________________| //            off the stack.
 
 
-// RESULT  poof - it's gone 💥
+// RESULT (poof - it's gone 💥)
  _________________
-|      stack      |
+|      STACK      |
 |                 |
 |                 |
 |                 |
@@ -276,14 +286,14 @@ printSquare(4);
 |_________________|
 
 ```
-
+----
 ## 🔨 STEP 10
-
+----
 ```javascript
 
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -292,13 +302,14 @@ printSquare(4);
  |                 |
  |                 |
  |                 |
- |     main()      |   <--- // Since there no `function call` left we `pop` off
- |_________________|        // `main()` from the stack
+ |     main()      | //   <-----   Since there no "function call"
+ |_________________| //            left we "pop" off "main()"
+                     //            from the stack.
 
 
-// RESULT  poof - it's gone 💥
+// RESULT (poof - it's gone 💥)
  _________________
-|      stack      |
+|      STACK      |
 |                 |
 |                 |
 |                 |
@@ -311,9 +322,13 @@ printSquare(4);
 |_________________|
 
 ```
+----
 
 ![WOOOW](https://s-media-cache-ak0.pinimg.com/originals/46/02/88/46028823ea0de856a1f7683fa24c4e7f.gif)
 
+# More coming up soon. . . 👊
 
+----
+----
 ## REFERENCE
 [What the heck is the event loop anyway?](https://youtu.be/8aGhZQkoFbQ)

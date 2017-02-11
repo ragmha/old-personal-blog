@@ -1,5 +1,5 @@
 ---
-title: Deploy Create React App with Surge
+title: 🚀 Deploy Create React App with Surge
 date: 01/18/2017
 description: Deploying a React app with Surge
 ---

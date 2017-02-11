@@ -1,7 +1,7 @@
 ---
-title: A good way to reason async
+title: 🤔 Reasoning async
 date: 02/04/2017
-description: A good way to reason/ remember Async
+description: A good way to reason/remember Async
 ---
 
 # Hmm... async stuffs 🤔

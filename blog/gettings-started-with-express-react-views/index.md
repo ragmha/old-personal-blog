@@ -1,5 +1,5 @@
 ---
-title: Getting started with express-react-views
+title: 🚀 Getting started with express-react-views
 date: 01/24/2017
 description: Get up and running with express & react
 ---
