@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-11T12:59:04Z</updated>
+    <updated>2017-02-11T13:07:13Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -373,6 +373,36 @@ lsregister -kill -r -domain local -domain user
 </code></pre>
 <pre><code class="language-bash"> $ fix row
 </code></pre>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[✋ Stop Using `sudo` with `npm`!!!]]></title>
+        <id>https://raghibm.com/blog/stop-using-sudo-with-npm/</id>
+        <link href="https://raghibm.com/blog/stop-using-sudo-with-npm/">
+        </link>
+        <updated>2017-11-01T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Using `sudo` with `npm` messes up your permission]]></summary>
+        <content type="html"><![CDATA[<h2>tldr;</h2>
+<h3>&#x1F527; Here is a quick fix &#x1F447;</h3>
+<pre><code class="language-bash">$&#xA0;sudo chown -R $(whoami) ~/node*                #  ~/node_modules
+
+$&#xA0;sudo chown -R $(whoami) ~/.node*               #  .node-gyp
+
+$&#xA0;sudo chown -R $(whoami) ~/.npm*                # .npm .npmrc
+
+$&#xA0;sudo chown -R $(whoami) /usr/local/*/*node*    # node node_modules
+
+$&#xA0;sudo chown -R $(whoami) /usr/local/*/*npm*     # npm
+</code></pre>
+<h2>Why ? &#x1F615;</h2>
+<blockquote>
+<p>Well using sudo messes up your <code>permissions</code> and makes it so that <code>non-sudo</code> installations won&#x2019;t work (i.e. in your <code>~/.npm</code>).</p>
+</blockquote>
 ]]></content>
         <author>
             <name>Raghib</name>
