@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-11T13:40:04Z</updated>
+    <updated>2017-02-11T13:41:36Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -431,10 +431,11 @@ $&#xA0;sudo chown -R $(whoami) /usr/local/*/*npm*     # npm
     --no-chrome    Don&apos;t kill tabs in Chrome
 </code></pre>
 <h3>Use <a href="https://chrome.google.com/webstore/detail/reload-all-tabs/lgpdljdpanfecnpindkbnikegohoobci/related">Reload All tabs</a> to resume all the killed tabs</h3>
+<hr>
 <h2>Why ? &#x1F615;</h2>
 <p><img src="https://raghibm.com/blog/use-kill-tabs/tab-abuser.png" alt="tab-abuser">
 Being a <code>tab-abuser</code>, I would advice anyone to install up this package and use it to prevent Chrome from taking up all system resources.</p>
-<p>It works on <code>macOS</code>, <code>Linux</code>, <code>Windows</code>. &#x1F389;</p>
+<p>It works on <code>macOS</code>, <code>Linux</code> and <code>Windows</code>. &#x1F389;</p>
 <figure><img src="https://raghibm.com/blog/use-kill-tabs/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
 <h2>Reference</h2>
 <p><a href="https://github.com/sindresorhus/kill-tabs">kill-tabs</a></p>
