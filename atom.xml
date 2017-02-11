@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-11T14:23:39Z</updated>
+    <updated>2017-02-11T15:04:30Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -513,16 +513,19 @@ printSquare(4);
 <h2>NOTES:</h2>
 <ul>
 <li>
-<p><code>call stack</code> is a <code>data structure</code> which <code>records</code> basically where in the program we are</p>
+<p><code>call stack</code> is a <code>data structure</code> which <code>records</code> basically where in the program we are.</p>
 </li>
 <li>
 <p>If we <code>step into</code> a <code>function</code>, we put something on to the <code>stack</code>, if we <code>return</code> from a <code>function</code>, we <code>pop</code> <code>off</code> from the <code>top</code> of <code>stack</code></p>
 </li>
 </ul>
+<hr>
 <h2>Let&#x2019;s run this file &#x1F3C3;</h2>
+<hr>
 <h2>&#x1F528; STEP 1</h2>
+<hr>
 <pre><code class="language-javascript">  _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -531,13 +534,16 @@ printSquare(4);
  |                 |
  |                 |
  |                 |
- |      main()     |  &lt;--- // There is kind of main function, like the file
- |_________________|       // itself, we push that on to the stack.
+ |      main()     | // &lt;----- There is kind of main function,
+ |_________________| //        like the file itself, we push
+                     //        that on to the stack.
 
 </code></pre>
+<hr>
 <h2>&#x1F528; STEP 2</h2>
+<hr>
 <pre><code class="language-javascript">  _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -546,14 +552,17 @@ printSquare(4);
  |                 |
  |                 |
  |  printSquare(4) |
- |      main()     |  &lt;-- // It goes through the file `main()`, the `function
- |_________________|     // defination` and once we get to `printSquare`. Since
-                         // `printSquare` is a `function call`, so we push it on
-                         //  to the stack.
+ |      main()     | // &lt;-----  It goes through the file &quot;main()&quot;,
+ |_________________| //         the &quot;function defination&quot; and once
+                     //         we get to &quot;printSquare&quot;. Since
+                     //         &quot;printSquare&quot; is a &quot;function call&quot;,
+                     //         so we push it onto the stack.
 </code></pre>
+<hr>
 <h2>&#x1F528; STEP 3</h2>
+<hr>
 <pre><code class="language-javascript">  _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -561,46 +570,50 @@ printSquare(4);
  |                 |
  |                 |
  |    square(n)    |
- |  printSquare(4) |  &lt;-- // Inside `printSquare`, we immediately call
- |     main()      |      // `square` and push it on to the stack
- |_________________|
+ |  printSquare(4) | // &lt;-----  Inside &quot;printSquare&quot;, we immediately
+ |     main()      | //         call &quot;square&quot; and push it on
+ |_________________| //         to the stack.
 
 </code></pre>
+<hr>
 <h2>&#x1F528; STEP 4</h2>
+<hr>
 <pre><code class="language-javascript">  _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
  |                 |
  |                 |
  |  multiply(n, n) |
- |    square(n)    |  &lt;-- // Inside `square`, we  immediately call `multiply`
- |  printSquare(4) |      // and push it on to the stack
- |     main()      |
+ |    square(n)    | // &lt;-----  Inside &quot;square&quot;, we  immediately
+ |  printSquare(4) | //         call &quot;multiply&quot; and push it on to
+ |     main()      | //         the stack.
  |_________________|
 
 </code></pre>
+<hr>
 <h2>&#x1F528; STEP 5</h2>
+<hr>
 <pre><code class="language-javascript">
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
  |                 |
  |                 |
- |  multiply(n, n) |  &lt;-- // `multiply` returns `a` and `b`, so as stated above
- |    square(n)    |      //  whenever we `return` something we `pop` off from
- |  printSquare(4) |      // `stack`
+ |  multiply(n, n) | // &lt;-----  &quot;multiply&quot; returns &quot;a&quot; and &quot;b&quot;, so
+ |    square(n)    | //          we &quot;pop&quot; off from stack.
+ |  printSquare(4) |
  |     main()      |
  |_________________|
 
 
-// RESULT  poof - it&apos;s gone &#x1F4A5;
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
  _________________
-|      stack      |
+|      STACK      |
 |                 |
 |                 |
 |                 |
@@ -613,26 +626,28 @@ printSquare(4);
 |_________________|
 
 </code></pre>
+<hr>
 <h2>&#x1F528; STEP 6</h2>
+<hr>
 <pre><code class="language-javascript">
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
  |                 |
  |                 |
  |                 |
- |    square(n)    |   &lt;--- //`square` returned `mutiply(n, n)`, so we `pop` it
- |  printSquare(4) |        // off the stack
+ |    square(n)    | // &lt;-----  &quot;square&quot; returned &quot;mutiply(n, n)&quot;,
+ |  printSquare(4) | //          so we &quot;pop&quot; it off the stack.
  |     main()      |
  |_________________|
 
 
-// RESULT  poof - it&apos;s gone &#x1F4A5;
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
  _________________
-|      stack      |
+|      STACK      |
 |                 |
 |                 |
 |                 |
@@ -645,11 +660,13 @@ printSquare(4);
 |_________________|
 
 </code></pre>
+<hr>
 <h2>&#x1F528; STEP 7</h2>
+<hr>
 <pre><code class="language-javascript">
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -657,14 +674,14 @@ printSquare(4);
  |                 |
  |                 |
  |                 |
- |  printSquare(4) | &lt;-- // Inside `printSquare`, it calls `console.log(squared)`
- |     main()      |     // Since it&apos;s a function call we push it to the stack
- |_________________|
+ |  printSquare(4) | // &lt;----- Inside &quot;printSquare&quot;, it calls
+ |     main()      | //        &quot;console.log(squared)&quot;, since it&apos;s a
+ |_________________| //        function call we push it to the stack.
 
 
 // RESULT
  _____________________
-|        stack        |
+|        STACK        |
 |                     |
 |                     |
 |                     |
@@ -677,25 +694,28 @@ printSquare(4);
 |_____________________|
 
 </code></pre>
+<hr>
 <h2>&#x1F528; STEP 8</h2>
+<hr>
 <pre><code class="language-javascript">
 // INITIAL
  _____________________
-|        stack        |
+|        STACK        |
 |                     |
 |                     |
 |                     |
 |                     |
 |                     |
 |                     |
-| console.log(squared)| &lt;--- // `console.log(squared)` returns the
-|    printSquare(4)   |      // `logged square` so we `pop` it `off` the `stack`
-|        main()       |
+| console.log(squared)| // &lt;-----  &quot;console.log(squared)&quot; returns the
+|    printSquare(4)   | //         &quot;logged square&quot;, so we &quot;pop&quot; it
+|        main()       | //         off the stack.
 |_____________________|
 
-// RESULT  poof - it&apos;s gone &#x1F4A5;
+
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -703,16 +723,19 @@ printSquare(4);
  |                 |
  |                 |
  |     *poof*      |
- |  printSquare(4) | &lt;-- // Inside `printSquare`, it calls `console.log(squared)`
- |     main()      |     // since it&apos;s a function call we push it to the stack
- |_________________|
+ |  printSquare(4) | //   &lt;-----   Inside &quot;printSquare&quot;, it calls
+ |     main()      | //            &quot;console.log(squared)&quot; since it&apos;s
+ |_________________| //            a function call we push
+                     //            it to the stack.
 
 </code></pre>
+<hr>
 <h2>&#x1F528; STEP 9</h2>
+<hr>
 <pre><code class="language-javascript">
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -720,14 +743,14 @@ printSquare(4);
  |                 |
  |                 |
  |                 |
- |  printSquare(4) |  &lt;--- //`printSquare(n)` has no `return`, as it&apos;s `implicit`
- |     main()      |       //  we `pop` it off the stack
- |_________________|
+ |  printSquare(4) | //   &lt;-----  &quot;printSquare(n)&quot; has no &quot;return&quot;,
+ |     main()      | //            as it&apos;s &quot;implicit&quot; we &quot;pop&quot; it
+ |_________________| //            off the stack.
 
 
-// RESULT  poof - it&apos;s gone &#x1F4A5;
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
  _________________
-|      stack      |
+|      STACK      |
 |                 |
 |                 |
 |                 |
@@ -740,11 +763,13 @@ printSquare(4);
 |_________________|
 
 </code></pre>
+<hr>
 <h2>&#x1F528; STEP 10</h2>
+<hr>
 <pre><code class="language-javascript">
 // INITIAL
   _________________
- |      stack      |
+ |      STACK      |
  |                 |
  |                 |
  |                 |
@@ -753,13 +778,14 @@ printSquare(4);
  |                 |
  |                 |
  |                 |
- |     main()      |   &lt;--- // Since there no `function call` left we `pop` off
- |_________________|        // `main()` from the stack
+ |     main()      | //   &lt;-----   Since there no &quot;function call&quot;
+ |_________________| //            left we &quot;pop&quot; off &quot;main()&quot;
+                     //            from the stack.
 
 
-// RESULT  poof - it&apos;s gone &#x1F4A5;
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
  _________________
-|      stack      |
+|      STACK      |
 |                 |
 |                 |
 |                 |
@@ -772,7 +798,11 @@ printSquare(4);
 |_________________|
 
 </code></pre>
+<hr>
 <figure><img src="https://raghibm.com/blog/visualize-call-stack/https://s-media-cache-ak0.pinimg.com/originals/46/02/88/46028823ea0de856a1f7683fa24c4e7f.gif" alt="WOOOW"><figcaption>WOOOW</figcaption></figure>
+<h1>More coming up soon. . . &#x1F44A;</h1>
+<hr>
+<hr>
 <h2>REFERENCE</h2>
 <p><a href="https://youtu.be/8aGhZQkoFbQ">What the heck is the event loop anyway?</a></p>
 ]]></content>
