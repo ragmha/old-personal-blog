@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-11T15:06:49Z</updated>
+    <updated>2017-02-11T15:10:39Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -491,7 +491,8 @@ Being a <code>tab-abuser</code>, I would advice anyone to install up this packag
         </link>
         <updated>2017-02-07T22:00:00Z</updated>
         <summary type="html"><![CDATA[Visualize the call-stack of printSquare with 10 steps 👌]]></summary>
-        <content type="html"><![CDATA[<h2><code>one thread</code> === <code>one call stack</code> === <code>one thing at a time</code></h2>
+        <content type="html"><![CDATA[<h2>&quot; <code>one thread</code> === <code>one call stack</code> === <code>one thing at a time</code> &quot;</h2>
+<hr>
 <pre><code class="language-javascript">// Example
  function multiply(a, b) {
    return a * b;
@@ -518,7 +519,7 @@ printSquare(4);
 </li>
 </ul>
 <hr>
-<h2>Let&#x2019;s run this file &#x1F3C3;</h2>
+<h2>Let&#x2019;s &#x1F3C3; this file  and  &#x1F50D; the <code>steps</code></h2>
 <hr>
 <h2>&#x1F528; STEP 1</h2>
 <hr>
