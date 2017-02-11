@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-11T13:48:48Z</updated>
+    <updated>2017-02-11T13:52:58Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -53,7 +53,7 @@ let [y1, x1] = [x , y];
 y1; // =&gt; 4
 x1; // =&gt; 2
 </code></pre>
-<h2>&#x1F914; Finding Max in Array?</h2>
+<h2>&#x1F50D; Finding Max in Array?</h2>
 <pre><code class="language-javascript">let arr = [1,4,32,10];
 
 Math.max(...arr); // =&gt; 32
@@ -115,7 +115,7 @@ let Values = Object.values(obj);
 Values; // =&gt; [&apos;bar&apos;, 42]
 
 </code></pre>
-<h2>&#x1F607; Promise</h2>
+<h2>&#x1F64F; Promise</h2>
 <pre><code class="language-javascript">let wait1000 = new Promise((resolve, reject) =&gt; {
   setTimeout(resolve,1000);
 }).then(() =&gt; {
