@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-11T13:52:58Z</updated>
+    <updated>2017-02-11T14:23:39Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -20,32 +20,46 @@
         <updated>2017-02-06T22:00:00Z</updated>
         <summary type="html"><![CDATA[Refresh your ES6 with these examples 👊]]></summary>
         <content type="html"><![CDATA[<h2>&#x270A; Convert NodeList to Array:</h2>
-<pre><code class="language-javascript">let Headings  = [...document.querySelectorAll(&apos;h1&apos;)];
+<pre><code class="language-javascript">// Spread syntax - https://goo.gl/0elyOR
+
+let Headings  = [...document.querySelectorAll(&apos;h1&apos;)];
 </code></pre>
 <h2>&#x270A; Convert Arguments to Array:</h2>
-<pre><code class="language-javascript">let argsArray  = [...arguments];
+<pre><code class="language-javascript">// Spread syntax - https://goo.gl/0elyOR
+
+let argsArray  = [...arguments];
 </code></pre>
 <h2>&#x1F984; Unique Arrays:</h2>
-<pre><code class="language-javascript">let array = [1,3,3,7];
+<pre><code class="language-javascript">// Spread syntax - https://goo.gl/0elyOR
+
+// Set syntax - https://goo.gl/jwroxF
+
+let array = [1,3,3,7];
 
 let result = [...new Set(array)]; // =&gt; [1, 3, 7]
 </code></pre>
 <h2>&#x1F528; Destructuring:</h2>
-<pre><code class="language-javascript">let {foo, bar} = {foo: &quot;lorem&quot;, bar: &quot;ipsum&quot;};
+<pre><code class="language-javascript">// Destructuring assignment syntax - https://goo.gl/vwd7C1
+
+let {foo, bar} = {foo: &quot;lorem&quot;, bar: &quot;ipsum&quot;};
 
 foo; // =&gt; lorem
 
 bar; // =&gt; ipsum
 </code></pre>
 <h2>&#x1F693; Interpolate</h2>
-<pre><code class="language-javascript">let obj = { x: 1, y: 2 };
+<pre><code class="language-javascript">// Template literals #Expression interpolation - https://goo.gl/rnqz0a
+
+let obj = { x: 1, y: 2 };
 
 let result = console.log(`Your total is: ${obj.x + obj.y}`);
 
 result; // =&gt; Your total is: 3
 </code></pre>
 <h2>&#x1F645; Swapping:</h2>
-<pre><code class="language-javascript">let x = 4;
+<pre><code class="language-javascript">// Destructuring assignment #Swapping variables - https://goo.gl/0ZQYtm
+
+let x = 4;
 let y = 2;
 
 let [y1, x1] = [x , y];
@@ -54,25 +68,35 @@ y1; // =&gt; 4
 x1; // =&gt; 2
 </code></pre>
 <h2>&#x1F50D; Finding Max in Array?</h2>
-<pre><code class="language-javascript">let arr = [1,4,32,10];
+<pre><code class="language-javascript">// Spread syntax - https://goo.gl/0elyOR
+
+// Math.max() syntax - https://goo.gl/AVXfW3
+
+let arr = [1,4,32,10];
 
 Math.max(...arr); // =&gt; 32
 </code></pre>
 <h2>&#x1F52A; <s>List comprehension:</s></h2>
 <h3><code>[NOT COMPATIBLE with current browser, Only works on Firefox(Gecko)]</code></h3>
-<pre><code class="language-javascript">let numbers = [1, 2, 3, 4];
+<pre><code class="language-javascript">// Array comprehensions syntax - https://goo.gl/PJn9ol
+
+let numbers = [1, 2, 3, 4];
 
 var doubled = [for (let i of numbers) i *2];
 
 doubled; //=&gt; 2,4,6,8
 </code></pre>
 <h2>&#x270A; Map them!</h2>
-<pre><code class="language-javascript">let arr = [{id: 1, name:&apos;A&apos;}, {id: 2, name:&apos;B&apos;}, {id:3, name:&apos;C&apos;}];
+<pre><code class="language-javascript">// Array.prototype.map() syntax - https://goo.gl/EEn7n6
+
+let arr = [{id: 1, name:&apos;A&apos;}, {id: 2, name:&apos;B&apos;}, {id:3, name:&apos;C&apos;}];
 
 arr.map(x =&gt; x.id); // =&gt; [1,2,3]
 </code></pre>
 <h2>&#x1F62E; <a href="http://Object.is">Object.is</a> ?</h2>
-<pre><code class="language-javascript">let z = (x, y) =&gt; x === y || Object.is(x,y);
+<pre><code class="language-javascript">// Object.is() syntax - https://goo.gl/2utt2F
+
+let z = (x, y) =&gt; x === y || Object.is(x,y);
 
 let obj1 = {
   id : 1
@@ -86,29 +110,34 @@ z(obj1, obj1); //=&gt; true
 z(obj1, obj2); //=&gt; false
 </code></pre>
 <h2>&#x1F47B; Is it Hidden?</h2>
-<pre><code class="language-javascript">// RegExp.prototype.test()
+<pre><code class="language-javascript">// RegExp.prototype.test() syntax - https://goo.gl/aC3Snu
 
 let isHidden = (file) =&gt; /^\.|~$/.test(file);
 
 isHidden(&quot;.DS_STORE&quot;) //=&gt; true
 </code></pre>
 <h2>&#x1F914; Is it Included?</h2>
-<pre><code class="language-javascript">// Array.prototype.includes()
+<pre><code class="language-javascript">// Array.prototype.includes() syntax - https://goo.gl/hkxraC
+
 let arr = [1, 2, 3];
 
 arr.includes(2); // =&gt; true &#x1F64C;
 
 </code></pre>
-<h2>&#x270B; What them entries ?</h2>
-<pre><code class="language-javascript">let obj = {foo: &apos;bar&apos;, baz: 42};
+<h2>&#x1F44B; What them entries ?</h2>
+<pre><code class="language-javascript">// Object.entries() syntax - https://goo.gl/oSCIe1
+
+let obj = {foo: &apos;bar&apos;, baz: 42};
 
 let Entries = Object.entries(obj);
 
 Entries; // =&gt; [[&apos;foo&apos;, &apos;bar&apos;], [&apos;baz&apos;,42]]
 
 </code></pre>
-<h2>&#x270B; What them values ?</h2>
-<pre><code class="language-javascript">let obj = {foo: &apos;bar&apos;, baz: 42};
+<h2>&#x1F44B; What them values ?</h2>
+<pre><code class="language-javascript">// Object.values() syntax - https://goo.gl/bR6thf
+
+let obj = {foo: &apos;bar&apos;, baz: 42};
 
 let Values = Object.values(obj);
 
@@ -116,7 +145,9 @@ Values; // =&gt; [&apos;bar&apos;, 42]
 
 </code></pre>
 <h2>&#x1F64F; Promise</h2>
-<pre><code class="language-javascript">let wait1000 = new Promise((resolve, reject) =&gt; {
+<pre><code class="language-javascript">// Promise syntax - https://goo.gl/nBnJyq
+
+let wait1000 = new Promise((resolve, reject) =&gt; {
   setTimeout(resolve,1000);
 }).then(() =&gt; {
   console.log(&apos;Wohoo!! &#x1F64C;&apos;);
@@ -125,19 +156,26 @@ Values; // =&gt; [&apos;bar&apos;, 42]
 wait1000; // =&gt; after 1 sec Wohoo!! &#x1F64C;
 </code></pre>
 <h2>&#x1F50D; Find</h2>
-<pre><code class="language-javascript">let ages = [12, 19, 6, 4];
+<pre><code class="language-javascript">// Array.prototype.find() syntax - https://goo.gl/xB2vwU
 
-// Array.prototype.find()
+let ages = [12, 19, 6, 4];
+
 let firstAdult = ages.find(age =&gt; age &gt;= 18);
 
 firstAdult; // =&gt; 19
+</code></pre>
+<h2>&#x1F50D; Find its <code>index</code></h2>
+<pre><code class="language-javascript">// Array.prototype.findIndex() syntax - https://goo.gl/NFp858
 
-// Array..prototype.findIndex()
+let ages = [12, 19, 6, 4];
+
 let firstAdultIndex = ages.find(age =&gt; age &gt;= 18);
 
 firstAdultIndex; // =&gt; 1
 </code></pre>
-<figure><img src="https://raghibm.com/blog/awesome-ES6-features/http://33.media.tumblr.com/tumblr_lnd67mbWHl1ql201ao1_500.gif" alt="INTERESTING"><figcaption>INTERESTING</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/awesome-ES6-features/http://33.media.tumblr.com/tumblr_lnd67mbWHl1ql201ao1_500.gif" alt="Hmmm....INTERESTING"><figcaption>Hmmm....INTERESTING</figcaption></figure>
+<h2>Reference</h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><strong>MDN</strong></a></p>
 ]]></content>
         <author>
             <name>Raghib</name>
