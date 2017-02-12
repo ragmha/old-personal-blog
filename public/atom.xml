@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-11T16:16:33Z</updated>
+    <updated>2017-02-12T11:56:17Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -176,6 +176,117 @@ firstAdultIndex; // =&gt; 1
 <figure><img src="https://raghibm.com/blog/awesome-ES6-features/http://33.media.tumblr.com/tumblr_lnd67mbWHl1ql201ao1_500.gif" alt="Hmmm....INTERESTING"><figcaption>Hmmm....INTERESTING</figcaption></figure>
 <h2>Reference</h2>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><strong>MDN</strong></a></p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📝 CheckList for a Software Engineering Interview]]></title>
+        <id>https://raghibm.com/blog/checklist-for-a-softwareEng-interview/</id>
+        <link href="https://raghibm.com/blog/checklist-for-a-softwareEng-interview/">
+        </link>
+        <updated>2016-11-24T22:00:00Z</updated>
+        <summary type="html"><![CDATA[CheckList for having an amazing Software Engineering Interview]]></summary>
+        <content type="html"><![CDATA[<h2>&#x1F4CB; Things to know &#x1F914;</h2>
+<hr>
+<h3>&#x1F511; Data Structures</h3>
+<ul>
+<li>
+<p>[ ] Linked Lists</p>
+</li>
+<li>
+<p>[ ] Trees, Tries &amp; Graphs</p>
+</li>
+<li>
+<p>[ ] Stacks &amp; Queues</p>
+</li>
+<li>
+<p>[ ] Heaps</p>
+</li>
+<li>
+<p>[ ] Vectors/ ArrayLists</p>
+</li>
+<li>
+<p>[ ] Hash Tables</p>
+</li>
+</ul>
+<h3>&#x1F511; Algorithms</h3>
+<ul>
+<li>
+<p>[ ] Breadth-First Search</p>
+</li>
+<li>
+<p>[ ] Depth-First Search</p>
+</li>
+<li>
+<p>[ ] Binary Search</p>
+</li>
+<li>
+<p>[ ] Merge Sort</p>
+</li>
+<li>
+<p>[ ] Quick Sort</p>
+</li>
+</ul>
+<h3>&#x1F511; Concepts</h3>
+<ul>
+<li>
+<p>[ ] Bit Manipulation</p>
+</li>
+<li>
+<p>[ ] Memory(Stack vs. Heap)</p>
+</li>
+<li>
+<p>[ ] Recursion</p>
+</li>
+<li>
+<p>[ ] Dynamic Programming</p>
+</li>
+<li>
+<p>[ ] Big O Time &amp; Space</p>
+</li>
+</ul>
+<h3>&#x1F53A; Note:</h3>
+<p>Make sure you understand how to use and implement them and where applicable, the space and time complexity.</p>
+<hr>
+<h3>&#x1F3C3; Walking through a Problem &#x1F4A1;</h3>
+<pre><code class="language-markdown">
+                       &#x1F442; Listen / &#x1F440; Read
+                            Carefully
+                                &#x2193;
+
+                          &#x1F4C8;  Draw an
+                             Example
+
+                                &#x2193;
+
+                          &#x270A;  State a
+                           Brute Force
+
+                                &#x2193;
+
+                           &#x1F527; Optimize
+
+                                &#x2193;
+
+                            &#x1F3C3; Walk
+                             Through
+
+                                &#x2193;
+
+                           &#x1F528; Implement
+
+                                &#x2193;
+
+                            &#x1F680;  Test
+
+</code></pre>
+<hr>
+<h2>&#x1F510; REFERENCE</h2>
+<p><a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_image_bk">Cracking the Coding Interview</a></p>
 ]]></content>
         <author>
             <name>Raghib</name>
