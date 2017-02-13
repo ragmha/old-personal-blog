@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-12T11:56:17Z</updated>
+    <updated>2017-02-13T14:43:36Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -496,6 +496,258 @@ module.exports = HelloWorld;
 <h2>Race conditions in order of queue</h2>
 <figure><img src="https://raghibm.com/blog/reason-async/http://learnyousomeerlang.com/static/img/fsm_both_ready.png" alt="Race conditon &#x1F3C3;"><figcaption>Race conditon &#x1F3C3;</figcaption></figure>
 <figure><img src="https://raghibm.com/blog/reason-async/https://cdn-images-1.medium.com/max/800/1*7IURnff2RaD8iM8yePIw7g.gif" alt="WOOOW &#x1F984;"><figcaption>WOOOW &#x1F984;</figcaption></figure>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😮 THE BIG O NOTATION]]></title>
+        <id>https://raghibm.com/blog/remembering-BIG-O-NOTATION/</id>
+        <link href="https://raghibm.com/blog/remembering-BIG-O-NOTATION/">
+        </link>
+        <updated>2017-02-12T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Lets go through BIG-O NOTATION and remember it 😄]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h2>What is <code>BIG-O NOTATION</code> ? &#x1F914;</h2>
+<blockquote>
+<p>Big-O Notation is a way of roughly meausing the performance of algorithms in order to compare one against another when discussing them.</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/remembering-BIG-O-NOTATION/big-o.png" alt="BIO-O NOTATION &#x1F4C8;"><figcaption>BIO-O NOTATION &#x1F4C8;</figcaption></figure>
+<blockquote>
+<p>Big-O Notation is a mathematical notation that we borrowed in computer science to classify by how they respond to the number (N) of items that you give them.</p>
+</blockquote>
+<hr>
+<h3>There are &#x270C;&#xFE0F; primary things that you &#x1F4CF; measure with <code>BIG-O</code> :</h3>
+<hr>
+<ol>
+<li>
+<p>&#x1F550; <code>Time complexity</code>- refers to the total count of operations an algorithm will perform given a set of items.</p>
+</li>
+<li>
+<p>&#x1F30C; <code>Space complexity</code>- refers to the total memory an algorithm will take up while running given a set of items.</p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p>We measure these independently from one another because while an algorithm may perform less operations than another, it may also take up way more memory. Depending on what your requirements are, one may be a better choise than the other.</p>
+</blockquote>
+<hr>
+<h3>Some Common <code>BIG-O&apos;s</code>:</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Notation</th>
+<th style="text-align:center">Feeling at &#x1F389;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Constant</td>
+<td style="text-align:center">O(1)</td>
+<td style="text-align:center">AWESOME!</td>
+</tr>
+<tr>
+<td style="text-align:center">Logarithmic</td>
+<td style="text-align:center">O(log N)</td>
+<td style="text-align:center">GREAT!</td>
+</tr>
+<tr>
+<td style="text-align:center">Linear</td>
+<td style="text-align:center">O(N)</td>
+<td style="text-align:center">OKAY.</td>
+</tr>
+<tr>
+<td style="text-align:center">Linearithmic</td>
+<td style="text-align:center">O(N log N)</td>
+<td style="text-align:center">UGH&#x2026;</td>
+</tr>
+<tr>
+<td style="text-align:center">Polynomial</td>
+<td style="text-align:center">O(N^2)</td>
+<td style="text-align:center">SHITTY</td>
+</tr>
+<tr>
+<td style="text-align:center">Exponential</td>
+<td style="text-align:center">O(2^N)</td>
+<td style="text-align:center">HORRIBLE</td>
+</tr>
+<tr>
+<td style="text-align:center">Factorial</td>
+<td style="text-align:center">O(N!)</td>
+<td style="text-align:center">WTF</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>Let&#x2019;s &#x1F440; at what these would equal given (N) number of items.</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Notation</th>
+<th style="text-align:center">N = 5</th>
+<th style="text-align:center">10</th>
+<th style="text-align:center">20</th>
+<th style="text-align:center">30</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">O(1)</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:center">O(log N)</td>
+<td style="text-align:center">2.3219&#x2026;</td>
+<td style="text-align:center">3.3219&#x2026;</td>
+<td style="text-align:center">4.3219&#x2026;</td>
+<td style="text-align:center">4.9068&#x2026;</td>
+</tr>
+<tr>
+<td style="text-align:center">O(N)</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td style="text-align:center">O(N log N)</td>
+<td style="text-align:center">11.609&#x2026;</td>
+<td style="text-align:center">33.219&#x2026;</td>
+<td style="text-align:center">84.638&#x2026;</td>
+<td style="text-align:center">147.204&#x2026;</td>
+</tr>
+<tr>
+<td style="text-align:center">O(N ^ 2)</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">100</td>
+<td style="text-align:center">400</td>
+<td style="text-align:center">900</td>
+</tr>
+<tr>
+<td style="text-align:center">O(2 ^ N)</td>
+<td style="text-align:center">32</td>
+<td style="text-align:center">1024</td>
+<td style="text-align:center">1,048,576</td>
+<td style="text-align:center">1,073,741,824</td>
+</tr>
+<tr>
+<td style="text-align:center">O(N!)</td>
+<td style="text-align:center">120</td>
+<td style="text-align:center">3,628,800</td>
+<td style="text-align:center">2,432,902,0&#x2026;</td>
+<td style="text-align:center">265,252,859,812,&#x2026;</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>From relatively small sets of data you can do a <strong>lot</strong> of extra work.</h3>
+<hr>
+<h3>With data structures, you can perform 4 primary types of actions:</h3>
+<br>
+<ol>
+<li>
+<p>Accessing</p>
+</li>
+<li>
+<p>Searching</p>
+</li>
+<li>
+<p>Inserting</p>
+</li>
+<li>
+<p>Deleting</p>
+</li>
+</ol>
+<hr>
+<h3>It&#x2019;s important to <strong>note</strong> that <code>data structures</code> may be &#x1F44D; <code>good</code> at one action but &#x1F44E; <code>bad</code> at another.</h3>
+<br>
+<table>
+<thead>
+<tr>
+<th>Data structures</th>
+<th>Accessing</th>
+<th>Searching</th>
+<th>Inserting</th>
+<th>Deleting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Array</td>
+<td>O(1)</td>
+<td>O(N)</td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>Linked List</td>
+<td>O(N)</td>
+<td>O(N)</td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>Binary Search Tree</td>
+<td>O(log N)</td>
+<td>O(log N)</td>
+<td>O(log N)</td>
+<td>O(log N)</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3>Or rather&#x2026;</h3>
+<br>
+<table>
+<thead>
+<tr>
+<th>Data structures</th>
+<th>Accessing</th>
+<th>Searching</th>
+<th>Inserting</th>
+<th>Deleting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Array</td>
+<td>AWESOME!!</td>
+<td>OKAY</td>
+<td>OKAY</td>
+<td>OKAY</td>
+</tr>
+<tr>
+<td>Linked List</td>
+<td>OKAY</td>
+<td>OKAY</td>
+<td>AWESOME!!</td>
+<td>AWESOME!!</td>
+</tr>
+<tr>
+<td>Binary Search Tree</td>
+<td>GREAT!</td>
+<td>GREAT!</td>
+<td>GREAT!</td>
+<td>GREAT!</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>Even further, some actions will have a different <code>average</code> performace and a <code>worst case scenario</code> performance.</h3>
+<br>
+<blockquote>
+<p>There is no perfect data structure, and you choose one over another based on the data you are working with and the things you are going to do with it. This is why it is important to know a number of different common data structures so that you can choose from them - James kyle</p>
+</blockquote>
+<hr>
+<h2>REFERENCE</h2>
+<p><a href="https://github.com/thejameskyle/itsy-bitsy-data-structures">ITSY BITSY DATA STRUCTURES</a></p>
 ]]></content>
         <author>
             <name>Raghib</name>
