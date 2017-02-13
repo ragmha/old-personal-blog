@@ -45,18 +45,22 @@ export default function BlogIndex(props) {
       <p>
         I use this space primarily for{' '}
         <Link to="/blog/">writing</Link>
-        {' '}and helping out developers.
+        {' '}
+        and helping out{' '}
+        <Anchor href="https://youtu.be/Vhh_GeBPOhs" title="developers" />.
       </p>
-      <p>
+      {/* <p>
         I am a huge proponent of{' '}
-        <Anchor href="//en.wikipedia.org/wiki/Lifelog" title="lifelogging" />
+        <Anchor href="//en.wikipedia.org/<wiki/Lifelog" title="lifelogging" />
         {' '}and have been collecting actionable data on myself this year.
-
-        <br /> <br />
-        I will be posting my latest metrics below from{' '}
+       </p>
+      <br /> <br /> */
+      }
+      {/* I will be posting my latest metrics below from{' '}
         <Anchor href="//rescuetime.com" title="Rescuetime" />
-        {' '}soon 🦄 .
-      </p>
+        {' '}soon 🦄 . */
+      }
+
       {/* <QuantfiedSelf /> */}
     </section>
   );

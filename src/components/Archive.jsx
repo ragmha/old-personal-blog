@@ -12,7 +12,7 @@ const generatePostsTable = ({ route }) => {
       <tr key={path}>
         <td><time>{moment(date, 'MM/DD/YYYY').format('YYYY-MM-DD')}</time></td>
         <td><Link to={prefixLink(path)}>{title}</Link></td>
-      </tr>
+      </tr>,
     );
   });
   return rows;
@@ -20,9 +20,9 @@ const generatePostsTable = ({ route }) => {
 
 export default function Archive(props) {
   const rows = generatePostsTable(props);
-  return <table className='post-list'><tbody>{rows}</tbody></table>;
+  return <table className="post-list"><tbody>{rows}</tbody></table>;
 }
 
 Archive.propTypes = {
-  posts: React.PropTypes.object
+  posts: React.PropTypes.object,
 };
