@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-13T14:43:36Z</updated>
+    <updated>2017-02-13T14:45:02Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -504,9 +504,66 @@ module.exports = HelloWorld;
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[✨ Removing duplicates from "Open With" Mac OSX]]></title>
+        <id>https://raghibm.com/blog/remove-duplicates-from-open-with/</id>
+        <link href="https://raghibm.com/blog/remove-duplicates-from-open-with/">
+        </link>
+        <updated>2017-01-28T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Remove Duplicates from the “Open With” Right-Click Menu in Mac OS X]]></summary>
+        <content type="html"><![CDATA[<p><strong>tldr;</strong></p>
+<pre><code class="language-bash">/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/\
+LaunchServices.framework/Versions/A/Support/\
+lsregister -kill -r -domain local -domain user
+</code></pre>
+<h2>Creating an alias</h2>
+<pre><code class="language-bash"> $ nano .bash_profile
+</code></pre>
+<pre><code class="language-bash">alias fixow=&apos;/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user;killall Finder;echo &quot;Open With has been rebuilt, Finder will relaunch&quot;&apos;
+</code></pre>
+<pre><code class="language-bash"> $ fix row
+</code></pre>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[✋ Stop Using `sudo` with `npm`!!!]]></title>
+        <id>https://raghibm.com/blog/stop-using-sudo-with-npm/</id>
+        <link href="https://raghibm.com/blog/stop-using-sudo-with-npm/">
+        </link>
+        <updated>2017-02-10T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Using `sudo` with `npm` messes up your permission]]></summary>
+        <content type="html"><![CDATA[<h2>tldr;</h2>
+<h3>&#x1F527; Here is a quick fix &#x1F447;</h3>
+<pre><code class="language-bash">$&#xA0;sudo chown -R $(whoami) ~/node*                #  ~/node_modules
+
+$&#xA0;sudo chown -R $(whoami) ~/.node*               #  .node-gyp
+
+$&#xA0;sudo chown -R $(whoami) ~/.npm*                # .npm .npmrc
+
+$&#xA0;sudo chown -R $(whoami) /usr/local/*/*node*    # node node_modules
+
+$&#xA0;sudo chown -R $(whoami) /usr/local/*/*npm*     # npm
+</code></pre>
+<h2>Why ? &#x1F615;</h2>
+<blockquote>
+<p>Well using sudo messes up your <code>permissions</code> and makes it so that <code>non-sudo</code> installations won&#x2019;t work (i.e. in your <code>~/.npm</code>).</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/stop-using-sudo-with-npm/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[😮 THE BIG O NOTATION]]></title>
-        <id>https://raghibm.com/blog/remembering-BIG-O-NOTATION/</id>
-        <link href="https://raghibm.com/blog/remembering-BIG-O-NOTATION/">
+        <id>https://raghibm.com/blog/the-BIG-O-NOTATION/</id>
+        <link href="https://raghibm.com/blog/the-BIG-O-NOTATION/">
         </link>
         <updated>2017-02-12T22:00:00Z</updated>
         <summary type="html"><![CDATA[Lets go through BIG-O NOTATION and remember it 😄]]></summary>
@@ -515,7 +572,7 @@ module.exports = HelloWorld;
 <blockquote>
 <p>Big-O Notation is a way of roughly meausing the performance of algorithms in order to compare one against another when discussing them.</p>
 </blockquote>
-<figure><img src="https://raghibm.com/blog/remembering-BIG-O-NOTATION/big-o.png" alt="BIO-O NOTATION &#x1F4C8;"><figcaption>BIO-O NOTATION &#x1F4C8;</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/the-BIG-O-NOTATION/big-o.png" alt="BIO-O NOTATION &#x1F4C8;"><figcaption>BIO-O NOTATION &#x1F4C8;</figcaption></figure>
 <blockquote>
 <p>Big-O Notation is a mathematical notation that we borrowed in computer science to classify by how they respond to the number (N) of items that you give them.</p>
 </blockquote>
@@ -748,63 +805,6 @@ module.exports = HelloWorld;
 <hr>
 <h2>REFERENCE</h2>
 <p><a href="https://github.com/thejameskyle/itsy-bitsy-data-structures">ITSY BITSY DATA STRUCTURES</a></p>
-]]></content>
-        <author>
-            <name>Raghib</name>
-            <email>abulm@metropolia.fi</email>
-            <uri>https://raghibm.com/about</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[✨ Removing duplicates from "Open With" Mac OSX]]></title>
-        <id>https://raghibm.com/blog/remove-duplicates-from-open-with/</id>
-        <link href="https://raghibm.com/blog/remove-duplicates-from-open-with/">
-        </link>
-        <updated>2017-01-28T22:00:00Z</updated>
-        <summary type="html"><![CDATA[Remove Duplicates from the “Open With” Right-Click Menu in Mac OS X]]></summary>
-        <content type="html"><![CDATA[<p><strong>tldr;</strong></p>
-<pre><code class="language-bash">/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/\
-LaunchServices.framework/Versions/A/Support/\
-lsregister -kill -r -domain local -domain user
-</code></pre>
-<h2>Creating an alias</h2>
-<pre><code class="language-bash"> $ nano .bash_profile
-</code></pre>
-<pre><code class="language-bash">alias fixow=&apos;/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user;killall Finder;echo &quot;Open With has been rebuilt, Finder will relaunch&quot;&apos;
-</code></pre>
-<pre><code class="language-bash"> $ fix row
-</code></pre>
-]]></content>
-        <author>
-            <name>Raghib</name>
-            <email>abulm@metropolia.fi</email>
-            <uri>https://raghibm.com/about</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[✋ Stop Using `sudo` with `npm`!!!]]></title>
-        <id>https://raghibm.com/blog/stop-using-sudo-with-npm/</id>
-        <link href="https://raghibm.com/blog/stop-using-sudo-with-npm/">
-        </link>
-        <updated>2017-02-10T22:00:00Z</updated>
-        <summary type="html"><![CDATA[Using `sudo` with `npm` messes up your permission]]></summary>
-        <content type="html"><![CDATA[<h2>tldr;</h2>
-<h3>&#x1F527; Here is a quick fix &#x1F447;</h3>
-<pre><code class="language-bash">$&#xA0;sudo chown -R $(whoami) ~/node*                #  ~/node_modules
-
-$&#xA0;sudo chown -R $(whoami) ~/.node*               #  .node-gyp
-
-$&#xA0;sudo chown -R $(whoami) ~/.npm*                # .npm .npmrc
-
-$&#xA0;sudo chown -R $(whoami) /usr/local/*/*node*    # node node_modules
-
-$&#xA0;sudo chown -R $(whoami) /usr/local/*/*npm*     # npm
-</code></pre>
-<h2>Why ? &#x1F615;</h2>
-<blockquote>
-<p>Well using sudo messes up your <code>permissions</code> and makes it so that <code>non-sudo</code> installations won&#x2019;t work (i.e. in your <code>~/.npm</code>).</p>
-</blockquote>
-<figure><img src="https://raghibm.com/blog/stop-using-sudo-with-npm/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
 ]]></content>
         <author>
             <name>Raghib</name>
