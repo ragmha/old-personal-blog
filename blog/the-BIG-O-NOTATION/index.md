@@ -6,8 +6,15 @@ description: Lets go through BIG-O NOTATION and remember it 😄
 
 
 ---
+
 ## What is `BIG-O NOTATION` ? 🤔
 > Big-O Notation is a way of roughly meausing the performance of algorithms in order to compare one against another when discussing them.
+<center>
+<iframe width="550" height="300" src="https://www.youtube.com/embed/v4cd1O4zkGw" frameborder="0" allowfullscreen></iframe>
+</center>
+
+
+---
 
 ![BIO-O NOTATION 📈](./big-o.png)
 
