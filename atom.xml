@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-16T13:15:19Z</updated>
+    <updated>2017-02-16T17:14:51Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -324,9 +324,10 @@ firstAdultIndex; // =&gt; 1
         <content type="html"><![CDATA[<h2>&#x1F4CB; Things to know &#x1F914;</h2>
 <hr>
 <h3>&#x1F511; Data Structures</h3>
+<br>
 <ul>
 <li>
-<p>[ ] Linked Lists</p>
+<p>[ ] <a href="https://github.com/ragmha/data-structures/blob/master/linked-lists/linked-list.js">Linked Lists</a></p>
 </li>
 <li>
 <p>[ ] Trees, Tries &amp; Graphs</p>
@@ -344,7 +345,9 @@ firstAdultIndex; // =&gt; 1
 <p>[ ] Hash Tables</p>
 </li>
 </ul>
+<hr>
 <h3>&#x1F511; Algorithms</h3>
+<br>
 <ul>
 <li>
 <p>[ ] Breadth-First Search</p>
@@ -362,7 +365,9 @@ firstAdultIndex; // =&gt; 1
 <p>[ ] Quick Sort</p>
 </li>
 </ul>
+<hr>
 <h3>&#x1F511; Concepts</h3>
+<br>
 <ul>
 <li>
 <p>[ ] Bit Manipulation</p>
@@ -380,6 +385,7 @@ firstAdultIndex; // =&gt; 1
 <p>[ ] Big O Time &amp; Space</p>
 </li>
 </ul>
+<hr>
 <h3>&#x1F53A; Note:</h3>
 <p>Make sure you understand how to use and implement them and where applicable, the space and time complexity.</p>
 <hr>
