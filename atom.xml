@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-16T17:14:51Z</updated>
+    <updated>2017-02-16T17:36:50Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -884,6 +884,10 @@ $&#xA0;sudo chown -R $(whoami) /usr/local/*/*npm*     # npm
 <blockquote>
 <p>Big-O Notation is a way of roughly meausing the performance of algorithms in order to compare one against another when discussing them.</p>
 </blockquote>
+<center>
+<iframe width="550" height="300" src="https://www.youtube.com/embed/v4cd1O4zkGw" frameborder="0" allowfullscreen></iframe>
+</center>
+<hr>
 <figure><img src="https://raghibm.com/blog/the-BIG-O-NOTATION/big-o.png" alt="BIO-O NOTATION &#x1F4C8;"><figcaption>BIO-O NOTATION &#x1F4C8;</figcaption></figure>
 <blockquote>
 <p>Big-O Notation is a mathematical notation that we borrowed in computer science to classify by how they respond to the number (N) of items that you give them.</p>
