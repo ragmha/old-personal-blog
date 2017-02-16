@@ -7,9 +7,9 @@ description: CheckList for having an amazing Software Engineering Interview
 ## 📋 Things to know 🤔
 ---
 ### 🔑 Data Structures
+<br>
 
-
--   [ ] Linked Lists
+-   [ ] [Linked Lists](https://github.com/ragmha/data-structures/blob/master/linked-lists/linked-list.js)
 
 
 -   [ ] Trees, Tries & Graphs
@@ -26,8 +26,10 @@ description: CheckList for having an amazing Software Engineering Interview
 
 -   [ ] Hash Tables
 
-
+---
 ### 🔑 Algorithms
+<br>
+
 -   [ ] Breadth-First Search
 
 
@@ -42,8 +44,10 @@ description: CheckList for having an amazing Software Engineering Interview
 
 -   [ ] Quick Sort
 
-
+---
 ### 🔑 Concepts
+<br>
+
 -   [ ] Bit Manipulation
 
 
@@ -58,7 +62,7 @@ description: CheckList for having an amazing Software Engineering Interview
 
 -   [ ] Big O Time & Space
 
-
+---
 ### 🔺 Note:
 Make sure you understand how to use and implement them and where applicable, the space and time complexity.
 
