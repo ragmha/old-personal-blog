@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-15T11:31:19Z</updated>
+    <updated>2017-02-16T07:52:15Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -359,8 +359,8 @@ $ npm run build
     </entry>
     <entry>
         <title type="html"><![CDATA[🚀 Getting started with express-react-views]]></title>
-        <id>https://raghibm.com/blog/gettings-started-with-express-react-views/</id>
-        <link href="https://raghibm.com/blog/gettings-started-with-express-react-views/">
+        <id>https://raghibm.com/blog/getting-started-with-express-react-views/</id>
+        <link href="https://raghibm.com/blog/getting-started-with-express-react-views/">
         </link>
         <updated>2017-01-23T22:00:00Z</updated>
         <summary type="html"><![CDATA[Get up and running with express & react]]></summary>
@@ -424,6 +424,84 @@ module.exports = HelloWorld;
 <pre><code class="language-javascipt">$ node app.js
 </code></pre>
 <p>Then, load <a href="http://localhost:3000/">http://localhost:3000/</a> in a browser to see the output.</p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀 Getting started with react-storybook]]></title>
+        <id>https://raghibm.com/blog/getting-started-with-react-storybook/</id>
+        <link href="https://raghibm.com/blog/getting-started-with-react-storybook/">
+        </link>
+        <updated>2017-02-15T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Get up and running with React StoryBook]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h1>React StoryBook &#x1F4D6;</h1>
+<blockquote>
+<p><a href="https://getstorybook.io/">React StoryBook</a> is a UI component development environment for React. With that, you are able develop UI components without running your app &#x1F64C;</p>
+</blockquote>
+<hr>
+<h2>&#x1F528; Step 1</h2>
+<pre><code class="language-bash">$ create-react-app hello-storybook
+</code></pre>
+<h2>&#x1F528; Step 2</h2>
+<pre><code class="language-bash">$ npm install -g getstorybook
+</code></pre>
+<h2>&#x1F528; Step 3</h2>
+<pre><code class="language-bash">$ cd hello-storybook
+$ getstorybook  # press enter
+</code></pre>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/getstorybook.png" alt="&#x1F3C3; getstorybook"><figcaption>&#x1F3C3; getstorybook</figcaption></figure>
+<h2>&#x1F528; Step 4</h2>
+<pre><code class="language-bash">$ npm run storybook
+</code></pre>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/run-storybook.png" alt="&#x1F3C3; storybook"><figcaption>&#x1F3C3; storybook</figcaption></figure>
+<hr>
+<h3>&#x1F680;  <a href="http://localhost:9009">http://localhost:9009</a> in a &#x1F30F; browser to &#x1F440; the output</h3>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/running-storybook.gif" alt="&#x1F3C3; storybook on port 9009"><figcaption>&#x1F3C3; storybook on port 9009</figcaption></figure>
+<hr>
+<h2>The main configuration for storybook is &#x1F526; in <code>config.js</code></h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/hello-storybook.png" alt="hello-storybook/storybook/config.js"><figcaption>hello-storybook/storybook/config.js</figcaption></figure>
+<h2>stories are &#x1F526; in <code>../src/stories</code></h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/stories.png" alt="../src/stories"><figcaption>../src/stories</figcaption></figure>
+<hr>
+<h2>Lets try changing the button label &#x1F604; &#x1F389;</h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/unicorn-label.gif" alt="Adding a &#x1F984; to the button label in ../src/stories/index.js"><figcaption>Adding a &#x1F984; to the button label in ../src/stories/index.js</figcaption></figure>
+<h2>Awesome &#x1F60E;, now lets try &#x1F527; changing the button component</h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/tinkering-button.gif" alt="Tinkering the Button component in ../src/stories/Button.js"><figcaption>Tinkering the Button component in ../src/stories/Button.js</figcaption></figure>
+<hr>
+<h2>Wait &#x270B;, it is possible deploy your <code>awesome storybook</code> into a <code>static site</code></h2>
+<br>
+<h2>Building &#x1F4D6; storybook</h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/build-storybook.png" alt="build-storybook in package.json"><figcaption>build-storybook in package.json</figcaption></figure>
+<pre><code>$ npm run build-storybook
+
+</code></pre>
+<hr>
+<h2>Building react app</h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/build-storybook.png" alt="build in package.json"><figcaption>build in package.json</figcaption></figure>
+<pre><code>$ npm run build
+</code></pre>
+<hr>
+<h2>The build folder is ready to be deployed &#x1F680;. You can serve it locally with a static server.</h2>
+<br>
+<pre><code>$ yarn global add pushstate-server
+
+$ pushstate-server build
+
+$ open http://localhost:9000
+</code></pre>
+<hr>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<h2>REFERENCE</h2>
+<ul>
+<li><a href="https://getstorybook.io/">STORY BOOK</a></li>
+<li><a href="https://facebook.github.io/react/">react</a></li>
+<li><a href="https://github.com/facebookincubator/create-react-app">create-react-app</a></li>
+</ul>
 ]]></content>
         <author>
             <name>Raghib</name>
