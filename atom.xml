@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-16T07:52:15Z</updated>
+    <updated>2017-02-16T13:15:19Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -12,6 +12,137 @@
     <subtitle>By Raghib Hasan — an open source developer interested in advanced JavaScript and everything λ</subtitle>
     <rights>All rights reserved  2017, Raghib Hasan</rights>
     <generator>Feed for Node.js</generator>
+    <entry>
+        <title type="html"><![CDATA[📜 ATOM Editor Cheat Sheet]]></title>
+        <id>https://raghibm.com/blog/atom-editor-cheat-sheet/</id>
+        <link href="https://raghibm.com/blog/atom-editor-cheat-sheet/">
+        </link>
+        <updated>2017-01-19T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Become a keyboard master with this Cheat Sheet 👊]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h1 style="color:yellow; text-align:center">General</h1><br>
+<h2>Toggle command palette</h2>
+<pre><code class="language-code">shift + &#x2318; + p
+</code></pre>
+<h2>Toggle line/selection comment</h2>
+<pre><code class="language-code">&#x2318; + /
+</code></pre>
+<h2>Show available auto-completions</h2>
+<pre><code class="language-code">ctrl + space
+</code></pre>
+<h1 style="color:yellow; text-align:center">File Navigation</h1><br>
+<h2>Toggle file finder</h2>
+<pre><code class="language-code">&#x2318; + p
+</code></pre>
+<h2>Goto line</h2>
+<pre><code class="language-code">ctrl + g
+</code></pre>
+<h2>Goto symbol</h2>
+<pre><code class="language-code">&#x2318; + r
+</code></pre>
+<h2>Previous/next file</h2>
+<pre><code class="language-code">shift + &#x2318; + { / }
+</code></pre>
+<h2>Set bookmark</h2>
+<pre><code class="language-code">&#x2318; + F2
+</code></pre>
+<h2>Goto next bookmark</h2>
+<pre><code class="language-code">F2
+</code></pre>
+<h1 style="color:yellow; text-align:center">View/Window Manipulation</h1><br>
+<h2>Toggle tree-view sidebar</h2>
+<pre><code class="language-code">&#x2318; + \
+</code></pre>
+<h2>Toggle fullscreen</h2>
+<pre><code class="language-code">ctrl + &#x2318; + f
+</code></pre>
+<h2>Split pane left/right/up/down</h2>
+<pre><code class="language-code">&#x2318; + k, left/right/up/down
+</code></pre>
+<h2>Focus pane left/right/up/down</h2>
+<pre><code class="language-code">&#x2318; + k, &#x2318; + left/right/up/down
+</code></pre>
+<h1 style="color:yellow; text-align:center">Find</h1><br>
+<h2>Find in file</h2>
+<pre><code class="language-code">&#x2318; + f
+</code></pre>
+<h2>Find next</h2>
+<pre><code class="language-code">&#x2318; + g
+</code></pre>
+<h2>Find in project</h2>
+<pre><code class="language-code">shift + &#x2318; + f
+</code></pre>
+<h2>Use selection for find</h2>
+<pre><code class="language-code">&#x2318; + e
+</code></pre>
+<h1 style="color:yellow; text-align:center">Folding</h1><br>
+<h2>Fold/unfold current code block</h2>
+<pre><code class="language-code">ctrl + &#x2318; + [ / ]
+</code></pre>
+<h2>Fold/unfold all code blocks</h2>
+<pre><code class="language-code">option + shift + &#x2318; + [ / ]
+</code></pre>
+<h2>Fold code blocks at depth 1-9</h2>
+<pre><code class="language-code">&#x2318; + 1-9
+</code></pre>
+<h1 style="color:yellow; text-align:center">Word Manipulation</h1><br>
+<h2>Transpose characters either side of cursor</h2>
+<pre><code class="language-code">ctrl + t
+</code></pre>
+<h2>Delete text to beginning of word</h2>
+<pre><code class="language-code">option + backspace
+</code></pre>
+<h2>Delete text to end of word</h2>
+<pre><code class="language-code">option + delete or fn + option + backspace
+</code></pre>
+<h1 style="color:yellow; text-align:center">Line Manipulation</h1><br>
+<h2>Indent/outdent current line</h2>
+<pre><code class="language-code">&#x2318; + ] / [
+</code></pre>
+<h2>Insert new line after current line</h2>
+<pre><code class="language-code">&#x2318; + enter
+</code></pre>
+<h2>Insert new line before current line</h2>
+<pre><code class="language-code">&#x2318; + shift + enter
+</code></pre>
+<h2>Delete current line</h2>
+<pre><code class="language-code">ctrl + shift + k
+</code></pre>
+<h2>Move current line up/down</h2>
+<pre><code class="language-code">ctrl + &#x2318; + up/down
+</code></pre>
+<h2>Duplicate current line</h2>
+<pre><code class="language-code">shift + &#x2318; + d
+</code></pre>
+<h2>Join current and next lines</h2>
+<pre><code class="language-code">&#x2318; + j
+</code></pre>
+<h1 style="color:yellow; text-align:center">Selection</h1><br>
+<h2>Select current word/token</h2>
+<pre><code class="language-code">&#x2318; + d
+</code></pre>
+<h2>Select current line</h2>
+<pre><code class="language-code">&#x2318; + l
+</code></pre>
+<h2>Select to beginning/end of word</h2>
+<pre><code class="language-code">option + shift + left/right
+</code></pre>
+<h2>Select to first/last character of line</h2>
+<pre><code class="language-code">shift + &#x2318; + left/right
+</code></pre>
+<h2>Select to top/bottom of document</h2>
+<pre><code class="language-code">shift + &#x2318; + up/down
+</code></pre>
+<hr>
+<figure><img src="https://raghibm.com/blog/atom-editor-cheat-sheet/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<hr>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[😎 Awesome ES6 Features]]></title>
         <id>https://raghibm.com/blog/awesome-ES6-features/</id>
@@ -624,6 +755,80 @@ lsregister -kill -r -domain local -domain user
 <pre><code class="language-bash"> $ fix row
 </code></pre>
 ]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🌀 Software Engineering phases of life cycle]]></title>
+        <id>https://raghibm.com/blog/software-eng-phases-of-life-cycle/</id>
+        <link href="https://raghibm.com/blog/software-eng-phases-of-life-cycle/">
+        </link>
+        <updated>2016-12-01T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Software Engineering phases 👊]]></summary>
+        <content type="html"><![CDATA[<br>
+<h1>&#x1F528;&#x1F527;&#x1F4E6; Software Engineering</h1>
+<blockquote>
+<p><code>Software engineering</code> is the study and practice of methods helpful for the construction and maintenance of large software systems.</p>
+</blockquote>
+<hr>
+<center><h1>&#x1F4A0; Phases of life cycle</h1><center>
+<hr>
+  <center> <h1>1</h1> </center>
+<blockquote>
+<p><code>Analyze</code> the problem precisely and completely. Be sure to <code>specify</code> all necessary user interface with care.</p>
+</blockquote>
+<hr>
+  <center> <h1>2</h1> </center>
+<blockquote>
+<p><code>Build</code> a prototype and <code>experiment</code> with it until all specifications can be finalized.</p>
+</blockquote>
+<hr>
+ <center> <h1>3</h1> </center>
+<blockquote>
+<p><code>Design</code> the algorithm, using the tools of data structures and of other algorithms whose function is already known.</p>
+</blockquote>
+<hr>
+ <center> <h1>4</h1> </center>
+<blockquote>
+<p><code>Verify</code> that the algorithmm is correct, or make it so simple that its correctness is self-evident.</p>
+</blockquote>
+<hr>
+ <center> <h1>5</h1> </center>
+<blockquote>
+<p><code>Analyze</code> the algorithm to determine its requirements and make sure that it meets the specifications.</p>
+</blockquote>
+<hr>
+ <center> <h1>6</h1> </center>
+<blockquote>
+<p><code>Code</code> the algorithm into the appropriate programming language.</p>
+</blockquote>
+<hr>
+ <center> <h1>7</h1> </center>
+<blockquote>
+<p><code>Test</code> and <code>evaluate</code> the program on carefully chosen test data.</p>
+</blockquote>
+<hr>
+ <center> <h1>8</h1> </center>
+<blockquote>
+<p><code>Refine</code> and <code>repeat</code> the foregoing steps are neeeded for additional subprograms until the software is complete and fully functional.</p>
+</blockquote>
+<hr>
+<center> <h1>9</h1> </center>
+<blockquote>
+<p><code>Optimize</code> the code to improve performance, but only if necessary.</p>
+</blockquote>
+<hr>
+<center> <h1>10</h1> </center>
+<blockquote>
+<p><code>Maintain</code> the program so that it will meet the changing needs of its users.</p>
+</blockquote>
+<hr>
+<figure><img src="https://raghibm.com/blog/software-eng-phases-of-life-cycle/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<hr>
+</center></center>]]></content>
         <author>
             <name>Raghib</name>
             <email>abulm@metropolia.fi</email>
