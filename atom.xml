@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2017-02-16T17:36:50Z</updated>
+    <updated>2017-02-18T16:35:08Z</updated>
     <author>
         <name>Raghib</name>
         <email>abulm@metropolia.fi</email>
@@ -447,6 +447,46 @@ firstAdultIndex; // =&gt; 1
 <figure><img src="https://raghibm.com/blog/checklist-for-a-softwareEng-interview/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
 <h2>&#x1F510; REFERENCE</h2>
 <p><a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_image_bk">Cracking the Coding Interview</a></p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>abulm@metropolia.fi</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📁 Creating Multiple Directories]]></title>
+        <id>https://raghibm.com/blog/creating-multiple-dirs/</id>
+        <link href="https://raghibm.com/blog/creating-multiple-dirs/">
+        </link>
+        <updated>2017-02-05T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Quciker way to create multiple dirs...]]></summary>
+        <content type="html"><![CDATA[<h2>Creates 50 directories from Ex1-Ex50</h2>
+<pre><code class="language-bash">mkdir Ex{1..50}
+</code></pre>
+<hr>
+<h2>Each of the directories will hold 50 times exx1-50</h2>
+<pre><code class="language-bash">mkdir -p Ex{1..50}/exx{1..50}
+</code></pre>
+<hr>
+<h2>26 directories from a12345 &#x1F449; z12345</h2>
+<pre><code class="language-bash">mkdir {a-z}12345
+</code></pre>
+<hr>
+<h2>Comma separated(,) list makes dirs 1, 2 and 3.</h2>
+<pre><code class="language-bash">mkdir {1,2,3}
+</code></pre>
+<hr>
+<h2>Current date as a directory and 1,2,3 in it.</h2>
+<pre><code class="language-bash">mkdir -p `date &apos;+%y%m%d&apos;`/{1,2,3}
+</code></pre>
+<hr>
+<h2>Current user as a directory and 1,2,3 in it.</h2>
+<pre><code class="language-bash">mkdir -p $USER/{1,2,3}
+</code></pre>
+<hr>
+<figure><img src="https://raghibm.com/blog/creating-multiple-dirs/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<hr>
 ]]></content>
         <author>
             <name>Raghib</name>
