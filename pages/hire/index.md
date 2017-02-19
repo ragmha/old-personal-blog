@@ -2,13 +2,11 @@
 title: Hire Me 👔
 ---
 ---
-<center><h1>&nbsp;&nbsp; 📖 🤓 Currently Learning</h1></center>
 
+<center><h1>&nbsp;&nbsp; 📖 🤓 Currently Learning & Writing my Thesis 📝</h1></center>
+
+---
 *   Erlang
-
-
-*   Haskell
-
 
 *   Java
 
@@ -43,5 +41,6 @@ title: Hire Me 👔
 
 <center> <a href="https://github.com/ragmha/job-application/raw/master/resume.pdf"><h1>My 📃 Résumé</h1></a></center>
 
-----
+---
+
 For discussions, referrals and work samples, write to me at [abulm@metropolia.fi](mailto:abulm@metropolia.fi)
