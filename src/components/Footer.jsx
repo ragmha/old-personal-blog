@@ -9,7 +9,7 @@ const Icon = ({ icon }) => (
 );
 
 Icon.propTypes = {
-  icon: PropTypes.string,
+  icon: PropTypes.string
 };
 
 export default function Footer() {
@@ -31,21 +31,6 @@ export default function Footer() {
               <Icon icon="rss" />
             </a>
           </li>
-          {/* <li>
-            <a rel='noopener noreferrer' target='__blank' href='//facebook.com/rgb211'>
-              <Icon icon='facebook' />
-            </a>
-          </li> */
-          }
-          <li>
-            <a
-              rel="noopener noreferrer"
-              target="__blank"
-              href="//twitter.com/ragmha"
-            >
-              <Icon icon="twitter" />
-            </a>
-          </li>
           <li>
             <a
               rel="noopener noreferrer"
@@ -59,37 +44,9 @@ export default function Footer() {
             <a
               rel="noopener noreferrer"
               target="__blank"
-              href="//linkedin.com/in/raghibhasan"
-            >
-              <Icon icon="linkedin" />
-            </a>
-          </li>
-          <li>
-            <a
-              rel="noopener noreferrer"
-              target="__blank"
-              href="//medium.com/@Rgb_211"
-            >
-              <Icon icon="medium" />
-            </a>
-          </li>
-          <li>
-            <a
-              rel="noopener noreferrer"
-              target="__blank"
               href="//open.spotify.com/user/rgbm21"
             >
               <Icon icon="spotify" />
-            </a>
-          </li>
-          {/* Crazy goodreads icon */}
-          <li style={{ paddingLeft: 0 }}>
-            <a
-              rel="noopener noreferrer"
-              target="__blank"
-              href="//goodreads.com/ragmha"
-            >
-              <Icon icon="goodreads" />
             </a>
           </li>
         </ul>
