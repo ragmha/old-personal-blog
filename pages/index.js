@@ -14,7 +14,7 @@ const Anchor = props => (
 
 Anchor.propTypes = {
   href: PropTypes.string,
-  title: PropTypes.string,
+  title: PropTypes.string
 };
 
 export default function BlogIndex(props) {
@@ -34,13 +34,13 @@ export default function BlogIndex(props) {
           { property: 'og:title', content: docTitle },
           { property: 'og:description', content: config.description },
           { name: 'twitter:description', content: config.description },
-          { name: 'twitter:title', content: docTitle },
+          { name: 'twitter:title', content: docTitle }
         ]}
       />
       <p>
         Hello, my name is{' '}
         <Link to="/about/">Raghib Hasan</Link>
-        . I am a Software Engineer based in Helsinki.
+        . I am a Student | Software Engineer based in Helsinki.
       </p>
       <p>
         I use this space primarily for{' '}
@@ -66,5 +66,5 @@ export default function BlogIndex(props) {
   );
 }
 BlogIndex.propTypes = {
-  route: PropTypes.object,
+  route: PropTypes.object
 };
