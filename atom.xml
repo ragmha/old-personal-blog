@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄</title>
-    <updated>2018-12-04T08:55:41Z</updated>
+    <updated>2018-12-04T09:03:32Z</updated>
     <author>
         <name>Raghib</name>
-        <email>raghibmidhat@gmail.com</email>
+        <email>raghib.hasan@codemate.com</email>
         <uri>https://raghibm.com/about</uri>
     </author>
     <link rel="alternate" href="https://raghibm.com"/>
@@ -139,7 +139,7 @@
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -310,7 +310,7 @@ firstAdultIndex; // =&gt; 1
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -450,7 +450,7 @@ firstAdultIndex; // =&gt; 1
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -490,7 +490,7 @@ firstAdultIndex; // =&gt; 1
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -530,7 +530,7 @@ $ npm run build
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -604,7 +604,7 @@ module.exports = HelloWorld;
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -682,7 +682,7 @@ $ open http://localhost:9000
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -711,7 +711,7 @@ $ open http://localhost:9000
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -777,7 +777,7 @@ $ open http://localhost:9000
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -803,7 +803,7 @@ lsregister -kill -r -domain local -domain user
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -877,7 +877,7 @@ lsregister -kill -r -domain local -domain user
 </center></center>]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -912,7 +912,7 @@ $&#xA0;sudo chown -R $(whoami) /usr/local/*/*npm*     # npm
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -1168,7 +1168,7 @@ $&#xA0;sudo chown -R $(whoami) /usr/local/*/*npm*     # npm
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -1203,7 +1203,7 @@ Being a <code>tab-abuser</code>, I would advice anyone to install up this packag
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
@@ -1530,7 +1530,7 @@ printSquare(4);
 ]]></content>
         <author>
             <name>Raghib</name>
-            <email>raghibmidhat@gmail.com</email>
+            <email>raghib.hasan@codemate.com</email>
             <uri>https://raghibm.com/about</uri>
         </author>
     </entry>
