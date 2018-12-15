@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
-    <title>🦄</title>
-    <updated>2018-12-15T17:16:09Z</updated>
+    <title>🦄 Raghib Codes + Designs</title>
+    <updated>2018-12-15T19:17:09Z</updated>
     <author>
         <name>Raghib</name>
         <email>raghib.hasan@codemate.com</email>
         <uri>https://raghibm.com/about</uri>
     </author>
     <link rel="alternate" href="https://raghibm.com"/>
-    <subtitle>By Raghib Hasan — an open source developer interested in advanced JavaScript and everything λ</subtitle>
+    <subtitle>By Raghib Hasan — the javascript legend who works in silence</subtitle>
     <rights>All rights reserved  2018, Raghib Hasan</rights>
     <generator>Feed for Node.js</generator>
     <entry>
