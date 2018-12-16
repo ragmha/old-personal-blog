@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raghibm.com/</id>
     <title>🦄 Raghib Codes + Designs</title>
-    <updated>2018-12-16T08:02:12Z</updated>
+    <updated>2018-12-16T08:05:10Z</updated>
     <author>
         <name>Raghib</name>
         <email>raghib.hasan@codemate.com</email>
@@ -708,6 +708,61 @@ $ open http://localhost:9000
 <figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/l3vR22DFtLJjbdDYQ/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
 <figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/MCKQEmHkUyGf6/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
 <figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/vCKC987OpQAco/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[💁‍ Node Version Management]]></title>
+        <id>https://raghibm.com/blog/node-version-management/</id>
+        <link href="https://raghibm.com/blog/node-version-management/">
+        </link>
+        <updated>2018-12-15T22:00:00Z</updated>
+        <summary type="html"><![CDATA[How to interactively manage your node.js version]]></summary>
+        <content type="html"><![CDATA[<h1>Node.js Version Management &#x1F4D6;</h1>
+<blockquote>
+<p><a href="https://github.com/tj/n">n</a> is a Node.js version management: no subshells, no profile setup, no convoluted API, just simple. &#x1F64C;</p>
+</blockquote>
+<hr>
+<figure><img src="https://raghibm.com/blog/node-version-management/n-in-action.gif" alt="N in action"><figcaption>N in action</figcaption></figure>
+<p>&#x26A0;&#xFE0F; Currently supported only on Mac OSX</p>
+<h2>&#x1F528; Installation</h2>
+<pre><code class="language-bash">$ npm install -g n
+</code></pre>
+<h2>&#x1F527; Installing/Activating Versions</h2>
+<pre><code class="language-bash">$ n 0.8.14
+$ n 0.8.17
+$ n 0.9.6
+</code></pre>
+<h2>&#x1F527; Removing Versions</h2>
+<pre><code class="language-bash">// Remove some versions:
+
+$ n rm 0.9.4 v0.10.0
+
+// Removing all versions except the current version:
+
+$ n prune
+</code></pre>
+<h2>&#x1F527; Use/Installing latest / LTS relase</h2>
+<pre><code class="language-bash">// Latest
+
+$ n latest
+
+// Official
+
+$ n lts
+</code></pre>
+<br>
+<h2>Stay Awesome! &#x1F60E;</h2>
+<figure><img src="https://raghibm.com/blog/node-version-management/cat.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<h2>REFERENCE</h2>
+<ul>
+<li><a href="https://stackoverflow.com/questions/7718313/how-to-change-to-an-older-version-of-node-js/50817276">How to change to an older version of Node.js</a></li>
+<li><a href="https://github.com/tj/n#installingactivating-versions">Interactively Manage Your Node.js Versions</a></li>
+</ul>
 ]]></content>
         <author>
             <name>Raghib</name>
