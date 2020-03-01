@@ -1,10 +1,10 @@
 {
-  "name": "raghibm",
-  "description": "raghibm blog (source)",
+  "name": "raghibhasan",
+  "description": "raghibhasan blog (source)",
   "version": "1.0.0",
   "author": "Raghib Hasan <raghibmidhat@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ragmha/raghibm/issues"
+    "url": "https://github.com/ragmha/raghibhasan/issues"
   },
   "dependencies": {
     "babel-cli": "^6.16.0",
@@ -71,9 +71,9 @@
     "twemoji": "^2.2.0",
     "underscore.string": "^3.3.4"
   },
-  "homepage": "https://github.com/ragmha/raghibm#readme",
+  "homepage": "https://github.com/ragmha/raghibhasan#readme",
   "keywords": [
-    "raghibm",
+    "raghibhasan",
     "ragmha",
     "rgb",
     "blog"
@@ -81,7 +81,7 @@
   "license": "AGPL-3.0+",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ragmha/raghibm.git"
+    "url": "git+https://github.com/ragmha/raghibhasan.git"
   },
   "scripts": {
     "fix-css": "$(npm bin)/stylefmt -l $(ls ./src/css/*.css)",

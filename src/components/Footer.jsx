@@ -9,7 +9,7 @@ const Icon = ({ icon }) => (
 );
 
 Icon.propTypes = {
-  icon: PropTypes.string
+  icon: PropTypes.string,
 };
 
 export default function Footer() {
@@ -17,8 +17,8 @@ export default function Footer() {
     <footer>
       <section>
         <p>
-          <a href="mailto:abulm@metropolia.fi">
-            <Icon icon="send" /> abulm@metropolia.fi
+          <a href="mailto:raghibhasan@gmail.com">
+            <Icon icon="send" /> raghibhasan@gmail.com
           </a>
         </p>
         <ul>
@@ -26,7 +26,7 @@ export default function Footer() {
             <a
               rel="noopener noreferrer"
               target="__blank"
-              href="//raghibm.com/atom"
+              href="//raghibhasan.com/atom"
             >
               <Icon icon="rss" />
             </a>
